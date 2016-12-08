@@ -2,16 +2,16 @@
 from setuptools import find_packages
 from setuptools import setup
 
-version = '1.0a2.dev0'
-description = 'A Dexterity-based content type to define a glossary and its terms.'
+version = '1.0.dev1'
+description = ('A Dexterity-based content type to define a glossary '
+               'and its terms.')
 long_description = (
     open('README.rst').read() + '\n' +
-    open('CONTRIBUTORS.rst').read() + '\n' +
     open('CHANGES.rst').read()
 )
 
 setup(
-    name='collective.glossary',
+    name='eea.glossary',
     version=version,
     description=description,
     long_description=long_description,
@@ -33,10 +33,10 @@ setup(
     keywords='plone glossary',
     author='Simples Consultoria',
     author_email='products@simplesconsultoria.com.br',
-    url='https://github.com/collective/collective.glossary',
+    url='https://github.com/eea/eea.glossary',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    namespace_packages=['collective'],
+    namespace_packages=['eea'],
     include_package_data=True,
     zip_safe=False,
     install_requires=[

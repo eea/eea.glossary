@@ -1,0 +1,32 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="eea.glossary">
+
+  <five:registerPackage package="." />
+  <i18n:registerTranslations directory="locales" />
+
+  <include package="plone.app.dexterity" />
+
+  <permission
+      id="eea.glossary.AddGlossary"
+      title="eea.glossary: Add Glossary"
+      />
+
+  <permission
+      id="eea.glossary.AddTerm"
+      title="eea.glossary: Add Term"
+      />
+
+  <permission
+      id="eea.glossary.AddSynonym"
+      title="eea.glossary: Add Synonym"
+      />
+
+  <include package=".browser" />
+
+  <include file="profiles.zcml" />
+  <include file="vocabulary.zcml" />
+
+</configure>

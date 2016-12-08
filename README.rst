@@ -9,25 +9,10 @@ Life, the Universe, and Everything
 
 A Dexterity-based content type to define a glossary and its terms.
 
-This package is inspired in `PloneGlossary`_.
+This package is inspired in `PloneGlossary`_ and `collective.glossary`_.
 
 .. _`PloneGlossary`: https://pypi.python.org/pypi/Products.PloneGlossary
-
-Mostly Harmless
-===============
-
-.. image:: http://img.shields.io/pypi/v/collective.glossary.svg
-    :target: https://pypi.python.org/pypi/collective.glossary
-
-.. image:: https://img.shields.io/travis/collective/collective.glossary/master.svg
-    :target: http://travis-ci.org/collective/collective.glossary
-
-.. image:: https://img.shields.io/coveralls/collective/collective.glossary/master.svg
-    :target: https://coveralls.io/r/collective/collective.glossary
-
-Got an idea? Found a bug? Let us know by `opening a support ticket`_.
-
-.. _`opening a support ticket`: https://github.com/collective/collective.glossary/issues
+.. _`collective.glossary`: https://pypi.python.org/pypi/collective.glossary
 
 Don't Panic
 ===========
@@ -42,13 +27,13 @@ To enable this package in a buildout-based installation:
     [buildout]
     ...
     eggs =
-        collective.glossary
+        eea.glossary
 
 After updating the configuration you need to run ''bin/buildout'', which will take care of updating your system.
 
 Go to the 'Site Setup' page in a Plone site and click on the 'Add-ons' link.
 
-Check the box next to ``collective.glossary`` and click the 'Activate' button.
+Check the box next to ``eea.glossary`` and click the 'Activate' button.
 
 Usage
 -----
@@ -59,21 +44,21 @@ TBD.
 Screenshots
 -----------
 
-.. figure:: https://raw.github.com/collective/collective.glossary/master/docs/glossary.png
+.. figure:: https://raw.github.com/eea/eea.glossary/master/docs/glossary.png
     :align: center
     :height: 640px
     :width: 768px
 
     Create a Glossary.
 
-.. figure:: https://raw.github.com/collective/collective.glossary/master/docs/usage.png
+.. figure:: https://raw.github.com/eea/eea.glossary/master/docs/usage.png
     :align: center
     :height: 640px
     :width: 768px
 
     Use it!
 
-.. figure:: https://raw.github.com/collective/collective.glossary/master/docs/controlpanel.png
+.. figure:: https://raw.github.com/eea/eea.glossary/master/docs/controlpanel.png
     :align: center
     :height: 400px
     :width: 768px

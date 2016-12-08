@@ -1,0 +1,63 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="eea.glossary">
+
+  <browser:resourceDirectory
+      name="eea.glossary"
+      directory="static"
+      layer="eea.glossary.interfaces.IGlossaryLayer"
+      />
+
+  <browser:page
+      name="glossary-settings"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class="eea.glossary.controlpanel.GlossarySettingsControlPanel"
+      permission="cmf.ManagePortal"
+      layer="eea.glossary.interfaces.IGlossaryLayer"
+      />
+
+  <browser:page
+      name="view"
+      for="eea.glossary.interfaces.IGlossary"
+      class=".views.GlossaryView"
+      template="templates/glossary.pt"
+      permission="zope2.View"
+      layer="eea.glossary.interfaces.IGlossaryLayer"
+      />
+
+  <browser:page
+      name="view"
+      for="eea.glossary.interfaces.ITerm"
+      class=".views.TermView"
+      template="templates/term.pt"
+      permission="zope2.View"
+      layer="eea.glossary.interfaces.IGlossaryLayer"
+      />
+
+  <browser:page
+      name="view"
+      for="eea.glossary.interfaces.ISynonym"
+      class=".views.SynonymView"
+      template="templates/synonym.pt"
+      permission="zope2.View"
+      layer="eea.glossary.interfaces.IGlossaryLayer"
+      />
+
+  <browser:page
+      name="glossary_state"
+      for="*"
+      class=".views.GlossaryStateView"
+      permission="zope2.View"
+      layer="eea.glossary.interfaces.IGlossaryLayer"
+      />
+
+  <browser:page
+      name="glossary"
+      for="plone.app.layout.navigation.interfaces.INavigationRoot"
+      class=".views.JsonView"
+      permission="zope2.View"
+      layer="eea.glossary.interfaces.IGlossaryLayer"
+      />
+
+</configure>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+      name="eea.glossary"
+      interface="eea.glossary.interfaces.IGlossaryLayer"
+      />
+</layers>
