@@ -1,0 +1,97 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="collective.glossary">
+  <body>
+    <metal:content-core fill-slot="content-core">
+      <metal:content-core define-macro="content-core">
+        <div class="term"
+             tal:define="item view/get_entry">
+          <div class="metadata-container">
+            <div class="page">
+              <dt>
+                  <span>Source:</span>
+              </dt>
+              <dd>
+                  <span tal:content="item/source" />
+              </dd>
+              <dt>
+                  <span>Context:</span>
+              </dt>
+              <dd>
+                  <span tal:content="item/context" />
+              </dd>
+              <dt>
+                  <span>Comment</span>
+              </dt>
+              <dd>
+                  <span tal:content="item/comment" />
+              </dd>
+              <dt>
+                  <span>Definition source publication</span>
+              </dt>
+              <dd>
+                  <span tal:content="item/definition_source_publication" />
+              </dd>
+              <dt>
+                  <span>Publication year</span>
+              </dt>
+              <dd>
+                  <span tal:content="item/publication_year" />
+              </dd>
+              <dt>
+                  <span>Definition source URL</span>
+              </dt>
+              <dd>
+                  <span tal:content="item/definition_source_url" />
+              </dd>
+              <dt>
+                  <span>Organisation</span>
+              </dt>
+              <dd>
+                  <span tal:content="item/organisation" />
+              </dd>
+              <dt>
+                  <span>Organisation full name</span>
+              </dt>
+              <dd>
+                  <span tal:content="item/organisation_fullname" />
+              </dd>
+              <dt>
+                  <span>Subjects</span>
+              </dt>
+              <dd>
+                  <ul>
+                      <li tal:repeat="subject item/subjects" tal:content="python:view.get_subject_title(subject)" />
+                  </ul>
+              </dd>
+              <dt>
+                  <span>Disabled</span>
+              </dt>
+              <dd>
+                  <span tal:condition="item/disabled">Yes</span>
+                  <span tal:condition="not:item/disabled">No</span>
+              </dd>
+              <dt>
+                  <span>Long definition</span>
+              </dt>
+              <dd>
+                  <span tal:content="item/long_definition" />
+              </dd>
+              <dt>
+                  <span>QA needed</span>
+              </dt>
+              <dd>
+                  <span tal:condition="item/qa_needed">Yes</span>
+                  <span tal:condition="not:item/qa_needed">No</span>
+              </dd>
+            </div>
+          </div>
+        </div>
+      </metal:content-core>
+    </metal:content-core>
+  </body>
+</html>
