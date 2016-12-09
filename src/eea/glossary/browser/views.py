@@ -1,12 +1,18 @@
 # -*- coding: utf-8 -*-
-from eea.glossary.interfaces import IGlossarySettings
-from eea.glossary.interfaces import subjects
+import json
+from Acquisition import aq_inner
+from zope.component import getUtility
+from zope.intid.interfaces import IIntIds
+from zope.security import checkPermission
+from Products.Five.browser import BrowserView
+
 from plone import api
 from plone.i18n.normalizer.base import baseNormalize
 from plone.memoize import ram
-from Products.Five.browser import BrowserView
+from zc.relation.interfaces import ICatalog
 
-import json
+from eea.glossary.interfaces import IGlossarySettings
+from eea.glossary.interfaces import subjects
 
 
 def _catalog_counter_cachekey(method, self):
@@ -46,6 +52,24 @@ class TermView(BrowserView):
         }
         return item
 
+    def get_synonyms(self, attribute_name='term'):
+        catalog = getUtility(ICatalog)
+        intids = getUtility(IIntIds)
+        result = []
+        query = dict(
+            to_id=intids.getId(aq_inner(self.context)),
+            from_attribute=attribute_name
+        )
+
+        relations = list(catalog.findRelations(query))
+
+        for rel in relations:
+            obj = intids.queryObject(rel.from_id)
+            if obj is not None and checkPermission('zope2.View', obj):
+                # we can also append the obj itself
+                result.append(rel)
+        return result
+
     def get_subject_title(self, subject_id):
         return subjects.by_value.get(subject_id).title
 
@@ -64,6 +88,7 @@ class SynonymView(BrowserView):
         item = {
             'title': self.context.title,
             'description': self.context.description,
+            'term': self.context.term,
         }
         return item
 

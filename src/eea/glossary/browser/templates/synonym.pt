@@ -10,6 +10,16 @@
       <metal:content-core define-macro="content-core">
         <div class="synonym"
              tal:define="item view/get_entry">
+          <div class="metadata-container">
+            <div class="page">
+              <dt>
+                  <span>Synonym for:</span>
+              </dt>
+              <dd>
+                  <a tal:content="item/term/to_object/title" tal:attributes="href item/term/to_path" />
+              </dd>
+            </div>
+          </div>
         </div>
       </metal:content-core>
     </metal:content-core>

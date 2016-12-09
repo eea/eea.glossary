@@ -43,6 +43,7 @@ setup(
         'plone.api',
         'plone.app.dexterity',
         'plone.app.registry',
+        'plone.app.relationfield >=1.2.1',
         'plone.dexterity',
         'plone.namedfile',
         'Products.CMFPlone >=4.3',

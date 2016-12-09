@@ -1,43 +1,19 @@
 # -*- coding: utf-8 -*-
-from eea.glossary import _
-from eea.glossary.config import DEFAULT_ENABLED_CONTENT_TYPES
-from plone.app.textfield import RichText
 from zope import schema
 from zope.interface import Interface
 from zope.schema.vocabulary import SimpleVocabulary, SimpleTerm
 
+from plone.app.textfield import RichText
+from plone.formwidget.contenttree import ObjPathSourceBinder
+from z3c.relationfield.schema import RelationChoice
 
-subjects = SimpleVocabulary([
-    SimpleTerm(value=u'ADMLEG', title=_(u'Administration and Legislation')),
-    SimpleTerm(value=u'AGRARE', title=_(u'Agriculture and Rural Areas')),
-    SimpleTerm(value=u'AIRCHA', title=_(u'Air and Climate Change')),
-    SimpleTerm(value=u'CHEHEA', title=_(u'CHEMICALS AND HEALTH')),
-    SimpleTerm(value=u'DATINF', title=_(u'DATA MANAGEMENT AND INFORMATION')),
-    SimpleTerm(value=u'ECOREP',
-               title=_(u'ECONOMICS AND CORPORATE REPORTING')),
-    SimpleTerm(value=u'EIO', title=_(u'EIONET')),
-    SimpleTerm(value=u'ENE', title=_(u'ENERGY')),
-    SimpleTerm(value=u'ENVIND', title=_(u'ENVIRONMENTAL INDICATORS')),
-    SimpleTerm(value=u'ENVINS', title=_(u'ENVIRONMENTAL INSTRUMENTS')),
-    SimpleTerm(value=u'GEN', title=_(u'GENERAL')),
-    SimpleTerm(value=u'IMPASS', title=_(u'IMPACT ASSESSMENT')),
-    SimpleTerm(value=u'INTASS',
-               title=_(u'INTEGRATED TOOLS AND METHODOLOGIES FOR ASSESSMENT')),
-    SimpleTerm(value=u'LANUSE', title=_(u'LAND COVER AND LAND USE')),
-    SimpleTerm(value=u'MARENV', title=_(u'MARINE AND COASTAL ENVIRONMENT')),
-    SimpleTerm(value=u'NATBIO', title=_(u'NATURE AND BIODIVERSITY')),
-    SimpleTerm(value=u'NATHAZ',
-               title=_(u'NATURAL AND TECHNOLOGICAL HAZARDS')),
-    SimpleTerm(value=u'NOI', title=_(u'NOISE')),
-    SimpleTerm(value=u'SCEANA',
-               title=_(u'SCENARIOS AND PROSPECTIVE ANALYSIS')),
-    SimpleTerm(value=u'SOI', title=_(u'SOIL')),
-    SimpleTerm(value=u'TOU', title=_(u'TOURISM')),
-    SimpleTerm(value=u'TRA', title=_(u'TRANSPORT')),
-    SimpleTerm(value=u'URBENV', title=_(u'URBAN ENVIRONMENT')),
-    SimpleTerm(value=u'WAS', title=_(u'WASTE')),
-    SimpleTerm(value=u'WAT', title=_(u'WATER')),
-])
+from eea.glossary import _
+from eea.glossary.config import DEFAULT_ENABLED_CONTENT_TYPES
+from constants import SUBJECTS
+
+
+subjects = SimpleVocabulary([SimpleTerm(value=value, title=title)
+                             for value, title in SUBJECTS])
 
 
 class IGlossaryLayer(Interface):
@@ -149,3 +125,9 @@ class ITerm(Interface):
 class ISynonym(Interface):
 
     """A Synonym."""
+
+    term = RelationChoice(
+        title=_(u"Term"),
+        source=ObjPathSourceBinder(object_provides=ITerm.__identifier__),
+        required=True,
+    )

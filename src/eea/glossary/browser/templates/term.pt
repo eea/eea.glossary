@@ -13,6 +13,15 @@
           <div class="metadata-container">
             <div class="page">
               <dt>
+                  <span>Synonyms:</span>
+              </dt>
+              <dd>
+                <ul>
+                  <li tal:repeat="synonym view/get_synonyms">
+                    <a tal:content="synonym/from_object/title" tal:attributes="href synonym/from_path" />
+                  </li>
+              </dd>
+              <dt>
                   <span>Source:</span>
               </dt>
               <dd>
@@ -67,13 +76,6 @@
                   <ul>
                       <li tal:repeat="subject item/subjects" tal:content="python:view.get_subject_title(subject)" />
                   </ul>
-              </dd>
-              <dt>
-                  <span>Disabled</span>
-              </dt>
-              <dd>
-                  <span tal:condition="item/disabled">Yes</span>
-                  <span tal:condition="not:item/disabled">No</span>
               </dd>
               <dt>
                   <span>Long definition</span>

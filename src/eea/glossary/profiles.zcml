@@ -7,7 +7,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Glossary"
+      title="EEA Glossary"
       directory="profiles/default"
       description="A Dexterity-based content type to define a glossary and its terms."
       provides="Products.GenericSetup.interfaces.EXTENSION"
