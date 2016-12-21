@@ -116,7 +116,10 @@ class GlossaryView(BrowserView):
         items = {}
         for brain in catalog(**query):
             obj = brain.getObject()
-            index = baseNormalize(obj.title)[0].upper()
+            try:
+                index = baseNormalize(obj.title)[0].upper()
+            except IndexError:
+                index = baseNormalize(obj.title).upper()
             if index not in items:
                 items[index] = []
             item = {

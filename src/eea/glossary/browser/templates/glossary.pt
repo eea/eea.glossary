@@ -34,7 +34,7 @@
                       <span class="title"
                             tal:content="item/title">
                       </span>
-                      -
+                      <tal:block condition="item/description">-</tal:block>
                       <span class="description"
                             tal:content="item/description">
                       </span>

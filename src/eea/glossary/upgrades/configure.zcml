@@ -1,3 +1,17 @@
-<configure xmlns="http://namespaces.zope.org/zope">
-  <include package=".v2" />
+<configure xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="eea">
+
+  <genericsetup:upgradeSteps
+      source="1.0"
+      destination="1.0"
+      profile="eea.glossary:default">
+
+      <genericsetup:upgradeStep
+          title="Import terms and synonims from json"
+          handler=".upgrade_import_data.import_from_json"
+      />
+
+  </genericsetup:upgradeSteps>
+
 </configure>
