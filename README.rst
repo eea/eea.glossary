@@ -4,6 +4,22 @@ Glossary
 
 .. contents:: Table of Contents
 
+Import data from JSON
+=====================
+
+An upgrade step can be used to import the data from the old EEA Glossaries
+into three instances of the eea.glossary: EEA Glossary, EPER and EPER2.
+
+Import procedure
+----------------
+
+#. Install content type
+#. In the ZMI interface open portal_setup, "Upgrades" tab, select
+   eea.glossary:default and click "Choose Profile"
+#. Click "Show" to show the old upgrades
+#. Select the step "Import terms and synonyms from json (1.0 --> 1.0)"
+   and click Upgrade
+
 Life, the Universe, and Everything
 ==================================
 
@@ -34,11 +50,6 @@ After updating the configuration you need to run ''bin/buildout'', which will ta
 Go to the 'Site Setup' page in a Plone site and click on the 'Add-ons' link.
 
 Check the box next to ``eea.glossary`` and click the 'Activate' button.
-
-Usage
------
-
-TBD.
 
 
 Screenshots
