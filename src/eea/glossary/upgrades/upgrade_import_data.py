@@ -19,13 +19,14 @@ def json_path(filename):
 def import_from_json(self):
     for g_id, g_title in GLOSSARIES:
 
-        glossary = getattr(self.aq_parent, g_id, None)
+        site = self.aq_parent.SITE
+        glossary = getattr(site, g_id, None)
         if not glossary:
-            createContentInContainer(self.aq_parent, 'Glossary',
+            createContentInContainer(site, 'Glossary',
                                      title=g_title)
-            glossary = getattr(self.aq_parent, g_id)
+            glossary = getattr(site, g_id)
         if glossary.objectValues():
-            logger.info('Catalog not empty, import cancelled')
+            logger.info('Glossary % not empty, import cancelled' % g_title)
             continue
         data = json.load(open(json_path('%s.json' % g_id)))
         term_count = 0
