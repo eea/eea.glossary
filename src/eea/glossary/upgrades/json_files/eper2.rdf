@@ -1,0 +1,703 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:wf="http://intelleo.eu/ontologies/workflow/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:eea="http://www.eea.europa.eu/ontologies.rdf#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:term="http://www.eea.europa.eu/portal_types/Term#" xmlns:synonym="http://www.eea.europa.eu/portal_types/Synonym#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:schema="http://schema.org/" >
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/P/Perfluorocarbons_PFCs">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Perfluorocarbons (PFCs)</dcterms:title>
+        <dcterms:title xml:lang="en">Perfluorocarbons (PFCs)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/C/Cadmium_and_its_compounds">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Cadmium and its compounds</dcterms:title>
+        <dcterms:title xml:lang="en">Cadmium and its compounds</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/F/Fluorides">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Fluorides</dcterms:title>
+        <dcterms:title xml:lang="en">Fluorides</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/H/Halogenated_Organic_Compounds_AOX">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Halogenated Organic Compounds (AOX)</dcterms:title>
+        <dcterms:title xml:lang="en">Halogenated Organic Compounds (AOX)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/L/Lead_and_its_compounds">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Lead and its compounds</dcterms:title>
+        <dcterms:title xml:lang="en">Lead and its compounds</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/N/Nitrogen_oxides,_NOx">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Nitrogen oxides, NOx</dcterms:title>
+        <dcterms:title xml:lang="en">Nitrogen oxides, NOx</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/P/PM10s_Particulates10mm">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">PM10s (Particulates&lt;10mm)</dcterms:title>
+        <dcterms:title xml:lang="en">PM10s (Particulates&lt;10mm)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/P/Phenols">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Phenols</dcterms:title>
+        <dcterms:title xml:lang="en">Phenols</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/H/Hydrofluorocarbons_HFCs">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Hydrofluorocarbons (HFCs)</dcterms:title>
+        <dcterms:title xml:lang="en">Hydrofluorocarbons (HFCs)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/O/Organotin_compounds">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Organotin compounds</dcterms:title>
+        <dcterms:title xml:lang="en">Organotin compounds</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/C/Chromium_and_its_compounds">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Chromium and its compounds</dcterms:title>
+        <dcterms:title xml:lang="en">Chromium and its compounds</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/P/Polycyclic_aromatic_hydrocarbons_PAH">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Polycyclic aromatic hydrocarbons (PAH)</dcterms:title>
+        <dcterms:title xml:lang="en">Polycyclic aromatic hydrocarbons (PAH)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/C/Chloro-alkanes_C10-13">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Chloro-alkanes (C10-13)</dcterms:title>
+        <dcterms:title xml:lang="en">Chloro-alkanes (C10-13)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/A/Ammonia,_NH3">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Ammonia, NH3</dcterms:title>
+        <dcterms:title xml:lang="en">Ammonia, NH3</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/T/Tetrachloromethane_TCM">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Tetrachloromethane (TCM)</dcterms:title>
+        <dcterms:title xml:lang="en">Tetrachloromethane (TCM)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/H/Hexachlorobenzene_HCB">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Hexachlorobenzene (HCB)</dcterms:title>
+        <dcterms:title xml:lang="en">Hexachlorobenzene (HCB)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/S/Sulphur_hexafluoride_SF6">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Sulphur hexafluoride (SF6)</dcterms:title>
+        <dcterms:title xml:lang="en">Sulphur hexafluoride (SF6)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/H/Hexachlorobutadiene_HCBD">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Hexachlorobutadiene (HCBD)</dcterms:title>
+        <dcterms:title xml:lang="en">Hexachlorobutadiene (HCBD)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/B/Benzene,_toluene,_ethylbenzene,_xylenes_as_BTEX">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Benzene, toluene, ethylbenzene, xylenes (as BTEX)</dcterms:title>
+        <dcterms:title xml:lang="en">Benzene, toluene, ethylbenzene, xylenes (as BTEX)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/T/Trichlorobenzenes_TCBs">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Trichlorobenzenes (TCBs)</dcterms:title>
+        <dcterms:title xml:lang="en">Trichlorobenzenes (TCBs)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/N/Non_methane_volatile_organic_compounds_NMVOC">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Non methane volatile organic compounds (NMVOC)</dcterms:title>
+        <dcterms:title xml:lang="en">Non methane volatile organic compounds (NMVOC)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/N/Naphthalene">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Naphthalene</dcterms:title>
+        <dcterms:title xml:lang="en">Naphthalene</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/D/Dinitrogenoxide_N2O">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Dinitrogenoxide (N2O)</dcterms:title>
+        <dcterms:title xml:lang="en">Dinitrogenoxide (N2O)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/B/Benzene">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Benzene</dcterms:title>
+        <dcterms:title xml:lang="en">Benzene</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/1/1,1,1-Trichloroethane_TCE">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">1,1,1-Trichloroethane (TCE)</dcterms:title>
+        <dcterms:title xml:lang="en">1,1,1-Trichloroethane (TCE)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/T/Tetrachloroethylene_PER">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Tetrachloroethylene (PER)</dcterms:title>
+        <dcterms:title xml:lang="en">Tetrachloroethylene (PER)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/C/Chlorides">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Chlorides</dcterms:title>
+        <dcterms:title xml:lang="en">Chlorides</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/T/Trichloroethylene_TRI">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Trichloroethylene (TRI)</dcterms:title>
+        <dcterms:title xml:lang="en">Trichloroethylene (TRI)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/S/Sulphur_oxides_SOx">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Sulphur oxides (SOx)</dcterms:title>
+        <dcterms:title xml:lang="en">Sulphur oxides (SOx)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/M/Mercury_and_its_compounds">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Mercury and its compounds</dcterms:title>
+        <dcterms:title xml:lang="en">Mercury and its compounds</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/T/Trichloromethane_Chloroform">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Trichloromethane (Chloroform)</dcterms:title>
+        <dcterms:title xml:lang="en">Trichloromethane (Chloroform)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/1/1,2-Dichloroethane_DCE">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">1,2-Dichloroethane (DCE)</dcterms:title>
+        <dcterms:title xml:lang="en">1,2-Dichloroethane (DCE)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/H/Hydrogencyanid_HCN">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Hydrogencyanid (HCN)</dcterms:title>
+        <dcterms:title xml:lang="en">Hydrogencyanid (HCN)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/T/Total_Organic_Carbon_TOC">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Total Organic Carbon (TOC)</dcterms:title>
+        <dcterms:title xml:lang="en">Total Organic Carbon (TOC)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/A/Arsenic_and_its_compounds">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Arsenic and its compounds</dcterms:title>
+        <dcterms:title xml:lang="en">Arsenic and its compounds</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/Z/Zinc_and_its_compounds">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Zinc and its compounds</dcterms:title>
+        <dcterms:title xml:lang="en">Zinc and its compounds</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/M/Methane">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Methane</dcterms:title>
+        <dcterms:title xml:lang="en">Methane</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/N/Nickel_and_its_compounds">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Nickel and its compounds</dcterms:title>
+        <dcterms:title xml:lang="en">Nickel and its compounds</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/C/Cyanides_,_total_CN">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Cyanides , total CN</dcterms:title>
+        <dcterms:title xml:lang="en">Cyanides , total CN</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/D/Dioxines_and_furans_PCDDs_and_PCDFs">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Dioxines and furans (PCDDs and PCDFs)</dcterms:title>
+        <dcterms:title xml:lang="en">Dioxines and furans (PCDDs and PCDFs)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/P/Phosphorus,_total">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Phosphorus, total</dcterms:title>
+        <dcterms:title xml:lang="en">Phosphorus, total</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/C/Carbonmonoxide,_CO">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Carbon monoxide, CO</dcterms:title>
+        <dcterms:title xml:lang="en">Carbon monoxide, CO</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/C/Copper_and_its_compounds">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Copper and its compounds</dcterms:title>
+        <dcterms:title xml:lang="en">Copper and its compounds</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/C/Chlorine_and_inorganic_compounds_as_HCl">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Chlorine and inorganic compounds (as HCl)</dcterms:title>
+        <dcterms:title xml:lang="en">Chlorine and inorganic compounds (as HCl)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/P/Pentachlorophenol_PCP">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Pentachlorophenol (PCP)</dcterms:title>
+        <dcterms:title xml:lang="en">Pentachlorophenol (PCP)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/H/Hexachlorocyclohexane_HCH">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Hexachlorocyclohexane (HCH)</dcterms:title>
+        <dcterms:title xml:lang="en">Hexachlorocyclohexane (HCH)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/C/Carbondioxide,_CO2">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Carbon dioxide, CO2</dcterms:title>
+        <dcterms:title xml:lang="en">Carbon dioxide, CO2</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/B/Brominated_diphenylethers">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Brominated diphenylethers</dcterms:title>
+        <dcterms:title xml:lang="en">Brominated diphenylethers</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/D/Dichloromethane_DCM">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Dichloromethane (DCM)</dcterms:title>
+        <dcterms:title xml:lang="en">Dichloromethane (DCM)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER2/N/Nitrogen,total">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER2" />
+        <dcterms:title xml:lang="en">Nitrogen,total</dcterms:title>
+        <dcterms:title xml:lang="en">Nitrogen,total</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+</rdf:RDF>

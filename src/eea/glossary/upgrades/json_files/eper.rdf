@@ -1,0 +1,885 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:wf="http://intelleo.eu/ontologies/workflow/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:eea="http://www.eea.europa.eu/ontologies.rdf#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:term="http://www.eea.europa.eu/portal_types/Term#" xmlns:synonym="http://www.eea.europa.eu/portal_types/Synonym#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:schema="http://schema.org/" >
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/R/Recycling">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Recycling</dcterms:title>
+        <dcterms:title xml:lang="en">Recycling</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/I/Integrated_Pollution_Prevention_and_Control">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Integrated Pollution Prevention and Control</dcterms:title>
+        <dcterms:title xml:lang="en">Integrated Pollution Prevention and Control</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/C/Chemical_oxygen_demand">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Chemical oxygen demand</dcterms:title>
+        <dcterms:title xml:lang="en">Chemical oxygen demand</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/W/Water_Framework_Directive">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Water Framework Directive</dcterms:title>
+        <dcterms:title xml:lang="en">Water Framework Directive</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/B/Biomass">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Biomass</dcterms:title>
+        <dcterms:title xml:lang="en">Biomass</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/N/NOSE-P_code">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">NOSE-P code</dcterms:title>
+        <dcterms:title xml:lang="en">NOSE-P code</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/F/Food_chain">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Food chain</dcterms:title>
+        <dcterms:title xml:lang="en">Food chain</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/W/Water_supply">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Water supply</dcterms:title>
+        <dcterms:title xml:lang="en">Water supply</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/M/Mining_waste">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Mining waste</dcterms:title>
+        <dcterms:title xml:lang="en">Mining waste</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/M/Municipal_waste_water">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Municipal waste water</dcterms:title>
+        <dcterms:title xml:lang="en">Municipal waste water</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/R/Reporting_cycle">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Reporting cycle</dcterms:title>
+        <dcterms:title xml:lang="en">Reporting cycle</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/A/Annex_I_Activity">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Annex I Activity</dcterms:title>
+        <dcterms:title xml:lang="en">Annex I Activity</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/E/Emission_factor">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Emission factor</dcterms:title>
+        <dcterms:title xml:lang="en">Emission factor</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/M/Monitoring">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Monitoring</dcterms:title>
+        <dcterms:title xml:lang="en">Monitoring</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/H/Herbicide">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Herbicide</dcterms:title>
+        <dcterms:title xml:lang="en">Herbicide</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/P/Pollution_load">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Pollution load</dcterms:title>
+        <dcterms:title xml:lang="en">Pollution load</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/A/Acidification">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Acidification</dcterms:title>
+        <dcterms:title xml:lang="en">Acidification</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/A/Acid_rain">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Acid rain</dcterms:title>
+        <dcterms:title xml:lang="en">Acid rain</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/E/EPER">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">EPER</dcterms:title>
+        <dcterms:title xml:lang="en">EPER</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/G/Global_Warming">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Global Warming</dcterms:title>
+        <dcterms:title xml:lang="en">Global Warming</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/E/Eutrophication">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Eutrophication</dcterms:title>
+        <dcterms:title xml:lang="en">Eutrophication</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/W/Waste">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Waste</dcterms:title>
+        <dcterms:title xml:lang="en">Waste</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/N/Nutrient_removal">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Nutrient removal</dcterms:title>
+        <dcterms:title xml:lang="en">Nutrient removal</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/R/Reuse">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Reuse</dcterms:title>
+        <dcterms:title xml:lang="en">Reuse</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/P/Pesticide">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Pesticide</dcterms:title>
+        <dcterms:title xml:lang="en">Pesticide</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/I/Incineration_of_waste">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Incineration (of waste)</dcterms:title>
+        <dcterms:title xml:lang="en">Incineration (of waste)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/N/NACE_code">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">NACE code</dcterms:title>
+        <dcterms:title xml:lang="en">NACE code</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/E/Emission">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Emission</dcterms:title>
+        <dcterms:title xml:lang="en">Emission</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/H/Hazard">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Hazard</dcterms:title>
+        <dcterms:title xml:lang="en">Hazard</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/C/CFCs_chlorofluorocarbons">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">CFCs (chlorofluorocarbons)</dcterms:title>
+        <dcterms:title xml:lang="en">CFCs (chlorofluorocarbons)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/E/European_Environment_Agency_EEA">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">European Environment Agency (EEA)</dcterms:title>
+        <dcterms:title xml:lang="en">European Environment Agency (EEA)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/H/Halons">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Halons</dcterms:title>
+        <dcterms:title xml:lang="en">Halons</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/P/Pollutant">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Pollutant</dcterms:title>
+        <dcterms:title xml:lang="en">Pollutant</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/B/By-product">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">By-product</dcterms:title>
+        <dcterms:title xml:lang="en">By-product</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/G/Greenhouse_gas">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Greenhouse gas</dcterms:title>
+        <dcterms:title xml:lang="en">Greenhouse gas</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/I/Installation">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Installation</dcterms:title>
+        <dcterms:title xml:lang="en">Installation</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/E/Ecosystem">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Ecosystem</dcterms:title>
+        <dcterms:title xml:lang="en">Ecosystem</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/C/Cooling_water">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Cooling water</dcterms:title>
+        <dcterms:title xml:lang="en">Cooling water</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/L/Landfill">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Landfill</dcterms:title>
+        <dcterms:title xml:lang="en">Landfill</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/C/Catchment_area">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Catchment area</dcterms:title>
+        <dcterms:title xml:lang="en">Catchment area</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/S/Sewer">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Sewer</dcterms:title>
+        <dcterms:title xml:lang="en">Sewer</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/A/Aerosol">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Aerosol</dcterms:title>
+        <dcterms:title xml:lang="en">Aerosol</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/G/Groundwater">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Groundwater</dcterms:title>
+        <dcterms:title xml:lang="en">Groundwater</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/S/Surface_water">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Surface water</dcterms:title>
+        <dcterms:title xml:lang="en">Surface water</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/R/River_basin">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">River basin</dcterms:title>
+        <dcterms:title xml:lang="en">River basin</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/D/Diffuse_pollution">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Diffuse pollution</dcterms:title>
+        <dcterms:title xml:lang="en">Diffuse pollution</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/E/Enrichment">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Enrichment</dcterms:title>
+        <dcterms:title xml:lang="en">Enrichment</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/S/Sewage">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Sewage</dcterms:title>
+        <dcterms:title xml:lang="en">Sewage</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/R/Risk">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Risk</dcterms:title>
+        <dcterms:title xml:lang="en">Risk</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/O/Ozone">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Ozone</dcterms:title>
+        <dcterms:title xml:lang="en">Ozone</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/B/Biodegradable">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Biodegradable</dcterms:title>
+        <dcterms:title xml:lang="en">Biodegradable</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/F/Fugitive_emission">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Fugitive emission</dcterms:title>
+        <dcterms:title xml:lang="en">Fugitive emission</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/C/Climate_change">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Climate change</dcterms:title>
+        <dcterms:title xml:lang="en">Climate change</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/F/Facility">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Facility</dcterms:title>
+        <dcterms:title xml:lang="en">Facility</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/W/Waste_disposal">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Waste disposal</dcterms:title>
+        <dcterms:title xml:lang="en">Waste disposal</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/B/BAT_best_avalable_techniques">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">BAT (best avalable techniques)</dcterms:title>
+        <dcterms:title xml:lang="en">BAT (best avalable techniques)</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/S/Site">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Site</dcterms:title>
+        <dcterms:title xml:lang="en">Site</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/M/Manure">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Manure</dcterms:title>
+        <dcterms:title xml:lang="en">Manure</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/F/Fossil_fuel">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Fossil fuel</dcterms:title>
+        <dcterms:title xml:lang="en">Fossil fuel</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/S/Sludge">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Sludge</dcterms:title>
+        <dcterms:title xml:lang="en">Sludge</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/M/Municipal_waste">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Municipal waste</dcterms:title>
+        <dcterms:title xml:lang="en">Municipal waste</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/O/Ozone-depleting_substance">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Ozone-depleting substance</dcterms:title>
+        <dcterms:title xml:lang="en">Ozone-depleting substance</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+    <term:Term rdf:about="http://glossary.eea.europa.eu/EPER/C/Critical_load">
+        <dcterms:isPartOf rdf:resource="http://glossary.eea.europa.eu/EPER" />
+        <dcterms:title xml:lang="en">Critical load</dcterms:title>
+        <dcterms:title xml:lang="en">Critical load</dcterms:title>
+        <term:organisation_fullname></term:organisation_fullname>
+        <term:definition_source_publication>dataservice, http://dataservice.eea.eu.int</term:definition_source_publication>
+        <term:definition_source_url></term:definition_source_url>
+        <term:context></term:context>
+        <term:publication_year></term:publication_year>
+        <term:qa_needed>False</term:qa_needed>
+        <term:long_definition></term:long_definition>
+        <term:organisation></term:organisation>
+        <term:source></term:source>
+    </term:Term>
+</rdf:RDF>
