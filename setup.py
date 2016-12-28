@@ -4,12 +4,12 @@ import os
 from setuptools import find_packages, setup
 
 NAME = 'eea.glossary'
-PATH = NAME.split('.') + ['version.txt']
+PATH = ['src'] + NAME.split('.') + ['version.txt']
 VERSION = open(os.path.join(*PATH)).read().strip()
 
 setup(
     name='eea.glossary',
-    version=version,
+    version=VERSION,
     description=('A Dexterity-based content type to define a glossary '
                'and its terms.'),
     long_description=open("README.rst").read() + "\n" +
