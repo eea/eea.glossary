@@ -1,3 +1,6 @@
+# This script was used to export data from the old glossaries in zope
+# debug mode with the Data.fs from production
+
 import simplejson as json
 for glo_id in ['EPER', 'EPER2', 'EEAGlossary']:
     glo = getattr(app, glo_id)
@@ -25,6 +28,6 @@ for glo_id in ['EPER', 'EPER2', 'EEAGlossary']:
                                 'trans'] = el.history[lang][count][
                                     'trans'].decode('latin1')
                         count += 1
-        filename = '/var/local/ZopeInstances/Forum/%s.json' % glo_id
+        filename = '%s.json' % glo_id
         with open(filename, 'wb') as f:
             f.write(json.dumps(data))
