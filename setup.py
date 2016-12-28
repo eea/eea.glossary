@@ -1,19 +1,19 @@
-# -*- coding: utf-8 -*-
-from setuptools import find_packages
-from setuptools import setup
+""" EEA Glossary Installer
+"""
+import os
+from setuptools import find_packages, setup
 
-version = '1.0'
-description = ('A Dexterity-based content type to define a glossary '
-               'and its terms.')
-long_description = (
-    open('README.rst').read()
-)
+NAME = 'eea.glossary'
+PATH = NAME.split('.') + ['version.txt']
+VERSION = open(os.path.join(*PATH)).read().strip()
 
 setup(
     name='eea.glossary',
     version=version,
-    description=description,
-    long_description=long_description,
+    description=('A Dexterity-based content type to define a glossary '
+               'and its terms.'),
+    long_description=open("README.rst").read() + "\n" +
+                     open(os.path.join("docs", "HISTORY.txt")).read(),
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
@@ -30,8 +30,8 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     keywords='plone glossary',
-    author='Simples Consultoria',
-    author_email='products@simplesconsultoria.com.br',
+    author='European Environment Agency',
+    author_email='webadmin@eea.europa.eu',
     url='https://github.com/eea/eea.glossary',
     packages=find_packages('src'),
     package_dir={'': 'src'},
