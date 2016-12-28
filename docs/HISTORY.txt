@@ -1,0 +1,13 @@
+Changelog
+=========
+
+1.0 (unreleased)
+------------------
+* Initial release (with adaptations of collective.glossary)
+    - Renaming to eea.glossary
+    - adding several new properties to the term
+    - adding a new object "Synonym"
+    - adding relation from synonym to term
+    - [valipod refs #79376]
+* Upgrade step: create the three Glossaries and import data into them
+  [valipod refs #79822]
