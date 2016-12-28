@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.0.dev0 (unreleased)
----------------------
+1.0 - (2016-12-28)
+------------------
 * Initial release (with adaptations of collective.glossary)
     - Renaming to eea.glossary
     - adding several new properties to the term
@@ -11,3 +11,4 @@ Changelog
     - [valipod refs #79376]
 * Upgrade step: create the three Glossaries and import data into them
   [valipod refs #79822]
+

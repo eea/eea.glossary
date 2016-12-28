@@ -2,3 +2,5 @@ global-exclude *.pyc
 graft docs
 graft src
 include *.rst
+
+global-include *.mo
