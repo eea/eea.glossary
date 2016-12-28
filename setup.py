@@ -6,8 +6,7 @@ version = '1.0'
 description = ('A Dexterity-based content type to define a glossary '
                'and its terms.')
 long_description = (
-    open('README.rst').read() + '\n' +
-    open('CHANGES.rst').read()
+    open('README.rst').read()
 )
 
 setup(
