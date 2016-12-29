@@ -28,7 +28,7 @@ def import_from_json(self):
         if glossary.objectValues():
             logger.info('Glossary % not empty, import cancelled' % g_title)
             continue
-        data = json.load(open(json_path('%s.json' % g_id)))
+        data = json.load(open(json_path('%s.json' % g_id.replace('-', ''))))
         term_count = 0
         for term_id in data['EEA Glossary Term']:
             term = data['EEA Glossary Term'][term_id]
