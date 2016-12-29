@@ -7,7 +7,7 @@ from zope.intid.interfaces import IIntIds
 from plone.dexterity.utils import createContentInContainer
 from eea.glossary.logger import logger
 
-GLOSSARIES = [('eeaglossary', 'EEA Glossary'),
+GLOSSARIES = [('eea-glossary', 'EEA Glossary'),
               ('eper', 'EPER'),
               ('eper2', 'EPER2')]
 
