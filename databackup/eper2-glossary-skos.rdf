@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+            xml:lang="en">
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/1/1%2C1%2C1-Trichloroethane_TCE">
+<skos:prefLabel xml:lang="en">1,1,1-Trichloroethane (TCE)</skos:prefLabel>
+<skos:definition>1,1,1-trichloroethane is a colourless man-made chemical that has a sweet, yet sharp odour. It can be found as a liquid, as a vapour, or dissolved in water and other chemicals. It is highly volatile and so readily enters the atmosphere. It is non-flammable, so making it preferable in some applications to flammable alternatives. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/1/1%2C2-Dichloroethane_DCE">
+<skos:prefLabel xml:lang="en">1,2-Dichloroethane (DCE)</skos:prefLabel>
+<skos:definition>1,2-dichloroethane is a clear, colourless volatile liquid with a sweet, pleasant odour. It is highly flammable. 1,2-dichloroethane is only slightly miscible with water. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/A/Ammonia%2C_NH3">
+<skos:prefLabel xml:lang="en">Ammonia, NH3</skos:prefLabel>
+<skos:definition>In its pure state and under usual environmental conditions, ammonia exists as a colourless, pungent-smelling gas. It is alkaline, caustic and an irritant. Under high pressure, ammonia can be stored as a liquid. It is highly soluble in water. It reacts with acids to form ammonium salts. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/A/Arsenic_and_its_compounds">
+<skos:prefLabel xml:lang="en">Arsenic and its compounds</skos:prefLabel>
+<skos:definition>Pure arsenic is a grey-coloured metal but is rare in the environment. It has a crystalline, metallic-looking appearance and is odourless. Arsenic is usually found combined with one or more other elements such as oxygen, chlorine and sulphur. Arsenic compounds are naturally present in the environment at low levels. Inorganic arsenic compounds are usually solids at environmental temperatures, of low volatility and variable solubility in water. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/B/Benzene">
+<skos:prefLabel xml:lang="en">Benzene</skos:prefLabel>
+<skos:definition>Benzene is a colourless, volatile and flammable liquid with a distinctive odour. It evaporates into the air very quickly and is a dangerous fire hazard when exposed to heat or flame. It is only slightly soluble in water, but will mix with most organic solvents.Benzene is one of the simplest organic chemicals known as &apos;aromatic&apos; compounds - their carbon atoms are arranged in rings rather than chains. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/B/Benzene%2C_toluene%2C_ethylbenzene%2C_xylenes_as_BTEX">
+<skos:prefLabel xml:lang="en">Benzene, toluene, ethylbenzene, xylenes (as BTEX)</skos:prefLabel>
+<skos:definition>BTEX is a group of chemicals which is quantified by one analytical method. For details concerning benzene see the substance sheet for benzene.Toluene, ethylbenzene and the three isomers of xylene are colourless liquids, immiscible with water but miscible with organic solvents. They have a characteristic strong odour and are highly flammable. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/B/Brominated_diphenylethers">
+<skos:prefLabel xml:lang="en">Brominated diphenylethers</skos:prefLabel>
+<skos:definition>(Poly)brominated diphenylethers (PBDEs) are a group of closely related substances with similar properties that are used as mixtures in industrial applications. Three main types can be distinguished, depending on how many atoms of bromine are present in each molecule: penta- (5 bromine atoms), octa- (8 bromine) and deca- (10 bromine). There are a total of 209 individual chemicals (&apos;congeners&apos;) within the family of PBDEs.Pentabromdiphenylether (PeBDE) is itself a mixture of related substances, some of which contain four or six atoms of bromine per molecule. The commercial grade is found as a dense amber thick oily liquid or semi-solid that decomposes when heated above 200 0C. It is completely non-flammable and is indeed used as a flame retardant. It is insoluble in water but mixes with paraffin oil and other organic solvents. It is almost completely non volatile. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/C/Cadmium_and_its_compounds">
+<skos:prefLabel xml:lang="en">Cadmium and its compounds</skos:prefLabel>
+<skos:definition>Cadmium is a naturally occurring chemical element and a heavy metal. In nature Cadmium is nearly always found in combination with other elements as such sulphur (cadmium sulphide). Cadmium is usually extracted from zinc, lead and copper ores, in which it occurs as minor component. Pure cadmium is a soft silver-white metal and is similar in many respect to zinc, with which it is usually found in nature. Cadmium melts at about 321 0C. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/C/Carbondioxide%2C_CO2">
+<skos:prefLabel xml:lang="en">Carbon dioxide, CO2</skos:prefLabel>
+<skos:definition>Carbon dioxide is a colourless, odourless gas, denser than air that occurs naturally in the earth&apos;s atmosphere. It is slightly soluble in water, forming carbonic acid.&lt;BR&gt;&lt;B&gt;Use&lt;/B&gt;&lt;BR&gt;Carbon dioxide has many uses, such as a coolant, fire extinguishing gas and preservative. The gas is also used to provide the bubbles in fizzy drinks. A minor use of the solid (frozen) form is to produce smoke effects in TV, film and theatre. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/C/Carbonmonoxide%2C_CO">
+<skos:prefLabel xml:lang="en">Carbon monoxide, CO</skos:prefLabel>
+<skos:definition>Carbon monoxide is a colourless, odourless poisonous gas. It is formed when fuels containing carbon are burnt in conditions where oxygen is limited. It is slightly lighter than air. Carbon monoxide can form explosive mixtures with air. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/C/Chlorides">
+<skos:prefLabel xml:lang="en">Chlorides</skos:prefLabel>
+<skos:definition>The most commonly encountered chlorides are sodium, potassium and calcium chlorides. Chloride is an essential nutrient for plants and animals, including humans, but high concentrations can be harmful. The chloride salts mentioned above are white crystalline solids that dissolve readily in water. Hydrogen chloride, the acid from which these salts are derived, is a choking, irritant gas. It is highly soluble in water. Solutions of hydrogen chloride are called hydrochloric acid.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/C/Chlorine_and_inorganic_compounds_as_HCl">
+<skos:prefLabel xml:lang="en">Chlorine and inorganic compounds (as HCl)</skos:prefLabel>
+<skos:definition>Hydrogen chloride is a toxic, corrosive, colourless gas. It is strongly acidic and has a strong, pungent odour. It dissolves readily in water to form hydrochloric acid. In moist air, it forms dense clouds of hydrochloric acid. It has a choking, pungent odour. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/C/Chloro-alkanes_C10-13">
+<skos:prefLabel xml:lang="en">Chloro-alkanes (C10-13)</skos:prefLabel>
+<skos:definition>Chloro-alkanes (C10-13), also called short chain chlorinated paraffins (SCCP) are a complex mixture of closely related chemicals namely hydrocarbons having 10 to 13 carbon atoms arranged in chains and containing 50-70% by weight of chlorine. They are yellowish oily liquids, runny or thick, without a distinct melting point, instead thickening below about 35 0C and boiling at over 200 0C, in the process decomposing with the release of hydrogen chloride gas. They are insoluble in water but dissolve fully in most non-polar organic solvents like paraffin oil. Chloro-alkanes (C10-13) have a faint odour. They are non-flammable and do not evaporate easily. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/C/Chromium_and_its_compounds">
+<skos:prefLabel xml:lang="en">Chromium and its compounds</skos:prefLabel>
+<skos:definition>Chromium is an odourless, hard, steel-grey coloured metal that takes a high polish. It melts at about 1860 0C. The principal ore is chromite, which is found in Zimbabwe, Russia, South Africa, Turkey and Iran. All compounds of chromium are coloured.The principal ore from which chromium is extracted is chromite. Chromium has three main valence forms - metallic chromium(0), chromium(III) and chromium(VI). Chromium(III) or trivalent chromium occurs naturally in the environment (e.g. in chromite) and is an essential dietary nutrient. Metallic chromium(0) and chromium(VI) or hexavalent chromium are produced by industrial processes. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/C/Copper_and_its_compounds">
+<skos:prefLabel xml:lang="en">Copper and its compounds</skos:prefLabel>
+<skos:definition>Metallic copper is a reddish coloured metal. The metal melts at 1083 0C. It is quite malleable and a good conductor of heat and electricity. In terms of electrical conductivity, only silver is more effective - thus it is widely used in the electrical industry.Copper is found in many different minerals including cuprite, malachite, azurite, chalcopyrite and bornite. Most large deposits are found in parts of the Americas and Africa. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/C/Cyanides_%2C_total_CN">
+<skos:prefLabel xml:lang="en">Cyanides , total CN</skos:prefLabel>
+<skos:definition>Cyanide is a carbon-nitrogen chemical unit that combines with many organic and inorganic compounds. It most commonly occurs as hydrogen, sodium and potassium cyanide. Hydrogen cyanide is a colourless gas with a faint, bitter, almond-like odour. It is miscible with water and alcohol. Sodium cyanide and potassium cyanide are both white solids with a bitter, almond-like odour. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/D/Dichloromethane_DCM">
+<skos:prefLabel xml:lang="en">Dichloromethane (DCM)</skos:prefLabel>
+<skos:definition>Dichloromethane is a clear, colourless liquid with a penetrating ether-like odour and is slightly soluble in water. It is volatile and essentially non-flammable, however it can form an explosive mixture when mixed with oxygen. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/D/Dinitrogenoxide_N2O">
+<skos:prefLabel xml:lang="en">Dinitrogenoxide (N2O)</skos:prefLabel>
+<skos:definition>Under normal environmental conditions dinitrogen oxide (more commonly known as nitrous oxide) is a colourless gas with a slight sweetish taste and odour. It is non flammable itself but will support combustion and is only slightly soluble in water. It has an anaesthetic and an analgesic property, offering pain relief when inhaled in sufficient amounts.In the 19th century it was termed &apos;laughing gas&apos; after the amusing effects it had on people that inhaled it. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/D/Dioxines_and_furans_PCDDs_and_PCDFs">
+<skos:prefLabel xml:lang="en">Dioxines and furans (PCDDs and PCDFs)</skos:prefLabel>
+<skos:definition>Dioxins are a family of complex chemicals containing chlorine, known as polychlorinated-p-dioxins (PCDDs) and the related furans (PCDFs). There are several hundred dioxin substances. Some dioxin-type compounds are toxic at very low levels. The most toxic is 2,3,7,8-tetrachloro-dibenzo-p-dioxin, which is often referred to as 2,3,7,8-TCDD.PCDDs and PCDFs are crystalline solids, virtually insoluble in water, but readily soluble in organic solvents, fats and oils. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/F/Fluorides">
+<skos:prefLabel xml:lang="en">Fluorides</skos:prefLabel>
+<skos:definition>Compounds such as sodium and calcium fluoride are usually found as white solids. Sodium fluoride dissolves easily in water while calcium fluoride does not. Hydrogen fluoride is a colourless, highly toxic and irritant gas. It readily dissolves in water, where it is also colourless at room temperature. Hydrofluoric acid is a water solution of hydrogen fluoride which is prepared by heating calcium fluoride in sulphuric acid, and is extremely corrosive. Hydrofluoric acid attacks glass and dissolves most minerals. Another compound is hydrofluosilicic acid which can combine with sodium and potassium to form salts called fluosilicates or silicofluorides. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/H/Halogenated_Organic_Compounds_AOX">
+<skos:prefLabel xml:lang="en">Halogenated Organic Compounds (AOX)</skos:prefLabel>
+<skos:definition>AOX stands for &apos;Adsorbable Organically bound halogens&apos; expressed as chloride, and determined according to the relevant European Standard method. AOXs are substances that are adsorbed from water onto activated carbon. They may be volatile substances like trichloromethane (chloroforme), chlorophenoles and chlorobenzenes or complex organic molecules like dioxins and furans. Most AOXs are chlorine-containing molecules, but bromo- and iodo-AOXs may also occur. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/H/Hexachlorobenzene_HCB">
+<skos:prefLabel xml:lang="en">Hexachlorobenzene (HCB)</skos:prefLabel>
+<skos:definition>Pure Hexachlorobenzene is a white crystalline solid with an unpleasant odour. It is virtually insoluble in water but dissolves readily in organic solvents, fats and oils. It is quite volatile. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/H/Hexachlorobutadiene_HCBD">
+<skos:prefLabel xml:lang="en">Hexachlorobutadiene (HCBD)</skos:prefLabel>
+<skos:definition>Hexachlorobutadiene is a non-flammable, colourless liquid, under usual environmental conditions. It is an oily liquid that is poorly soluble in water. Its odour has been described as &apos;turpentine-like&apos;. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/H/Hexachlorocyclohexane_HCH">
+<skos:prefLabel xml:lang="en">Hexachlorocyclohexane (HCH)</skos:prefLabel>
+<skos:definition>The most important of the eight isomers of HCH are the alpha, beta, gamma and delta forms, of which only gamma-HCH (&apos;lindane&apos;) is of value as an insecticide. Lindane (gamma-HCH) is a slightly volatile white solid at room temperature with a slightly musty odour. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/H/Hydrofluorocarbons_HFCs">
+<skos:prefLabel xml:lang="en">Hydrofluorocarbons (HFCs)</skos:prefLabel>
+<skos:definition>Hydrofluorocarbons (HFCs) are a group of compounds containing carbon, fluorine and hydrogen (unlike hydrochlorofluorocarbons (HCFCs), which also contain chlorine). They are generally colourless and odourless gases at environmental temperatures and for the most part chemically unreactive. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/H/Hydrogencyanid_HCN">
+<skos:prefLabel xml:lang="en">Hydrogencyanid (HCN)</skos:prefLabel>
+<skos:definition>Hydrogen cyanide is a colourless gas or liquid that has a faint, bitter, almond-like odour. Its water solution is a weak acid, commonly known as hydrocyanic or prussic acid. Hydrogen cyanide melts at 14 0C and boils at 26 0C. It is very flammable and a potentially explosive hazard on exposure to air, sources of ignition, including heat, or open flame; and when stored for long periods of time. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/L/Lead_and_its_compounds">
+<skos:prefLabel xml:lang="en">Lead and its compounds</skos:prefLabel>
+<skos:definition>Lead is a bluish-white very dense metal which is very soft, highly malleable, ductile, and a relatively poor conductor of electricity. It is odourless. It is highly resistant to corrosion but can dissolve very slowly in soft water. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/M/Mercury_and_its_compounds">
+<skos:prefLabel xml:lang="en">Mercury and its compounds</skos:prefLabel>
+<skos:definition>Mercury is a silvery-white metal that is liquid at room temperature. It freezes at -39 0C and it boils at 357 0C at atmospheric pressure. Mercury is appreciable volatile. It is odourless and not flammable. It forms a number of inorganic and organic compounds, notably mercuric and mercurous chlorides and methyl mercury.Mercury has been known since antiquity. It rarely occurs as the free metal in nature. The main ore from which mercury is extracted is cinnabar (mercuric sulphide), found predominantly in Italy and Spain. The organic and inorganic forms of mercury may inter-convert over time - organic mercury compounds may slowly decompose to form inorganic mercury while inorganic mercury compounds may be transformed into organic mercury forms by bacteria in soil and water. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/M/Methane">
+<skos:prefLabel xml:lang="en">Methane</skos:prefLabel>
+<skos:definition>Methane is a colourless gas, odourless at low concentrations, but with a sweetish chloroform-like odour at high concentration. It is highly combustible, and mixtures of about 5 to 15 percent in air are explosive. Upon release into the atmosphere methane is destroyed by reactions with other chemicals in the atmosphere, giving a lifetime of about 10 years. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/N/Naphthalene">
+<skos:prefLabel xml:lang="en">Naphthalene</skos:prefLabel>
+<skos:definition>Naphthalene is a white solid found naturally in fossil fuels. It has a strong but not unpleasant smell, it is flammable, and it evaporates easily. When exposed to the air, it is broken down by moisture and sunlight, often within one day. In water it is destroyed by bacteria. Naphthalene is insoluble in water but dissolves in organic solvents such as toluene and benzene. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/N/Nickel_and_its_compounds">
+<skos:prefLabel xml:lang="en">Nickel and its compounds</skos:prefLabel>
+<skos:definition>Nickel is silvery white in colour, melting at 1453 0C. It is hard, malleable, ductile, has magnetic properties and is a fair conductor of heat and electricity. It forms a variety of inorganic and organic compounds. Many nickel salts are green in colour.Nickel is obtained commercially from pentlandite and pyrhotite of the Sudbury, Ontario, region of Canada, This region produces most of the nickel in the western world. Nickel is a constituent of most meteorites and has been used to distinguish meteorites from minerals of terrestrial origin. Iron meteorites (siderites) may contain iron alloyed with from 5 to 20 % nickel. Very small amounts of nickel have been shown to be essential for normal growth and reproduction in some species of animals; therefore, small amounts of nickel may also be essential for humans. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/N/Nitrogen%2Ctotal">
+<skos:prefLabel xml:lang="en">Nitrogen,total</skos:prefLabel>
+<skos:definition>Nitrogen, total(organic and inorganic) is not a single chemical substance but a wide range of compounds of nitrogen which can be used directly by plants as a source of nitrogen required for their nutrition directly, or else may be converted into forms that plants can use in the environment.Nitrogen gas makes up about 80% of the atmosphere and is fairly non-reactive. Before living organisms can make use of nitrogen as a nutrient element, it has to be in a soluble form, such as nitrate or ammonia (inorganic forms) or in organic forms such as proteins which are readily converted into inorganic forms. The key inorganic form of nitrogen is ammonia, a highly reactive gas in its pure form, but which is usually found as ammonium ions when dissolved in water. Ammonium ions are the form of nitrogen used by plants and animals to make amino acids which are then built up into the structural proteins and enzymes that are the key components of all living organisms. The other main inorganic form of nitrogen is the nitrate ion (derived from nitric acid). Nitrate and ammonia are inter-converted in the water and soil by micro-organisms. These inorganic forms are taken up by plants and converted to proteins. Higher animals could not use inorganic forms of nitrogen for their nutrition but instead depend on organic forms already made by the plants and other animals that they eat. Proteins in the animal diet are first broken down into their constituent amino acids and are then reassembled into the required animal proteins and other cell constituents. Waste organic nitrogen compounds in animals are converted into ammonia, and then excreted in the urine as urea and other simple organic forms. These substances then enter the environment where they are converted into nitrate, ammonium ions and nitrogen gas. Some specialised bacteria can also &apos;fix&apos; nitrogen gas from the atmosphere into ammonium ions. The above process is called the nitrogen cycle. In addition to ammonium and nitrate ions, traces of unstable inorganic nitrogen compounds such as nitrite ions may occasionally be found. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/N/Nitrogen_oxides%2C_NOx">
+<skos:prefLabel xml:lang="en">Nitrogen oxides, NOx</skos:prefLabel>
+<skos:definition>The term &apos;nitrogen oxides&apos; (NOx) is usually used to include two gases-nitric oxide (NO), which is a colourless, odourless gas and nitrogen dioxide (NO2), which is a reddish-brown gas with a pungent odour. Nitric oxide reacts with oxygene or ozone in the air to form nitrogen dioxide. Inhalation of the pure gases is rapidly fatal.Other oxides of nitrogen include NO3 (nitrogen trioxide), N2O (nitrous oxide), N2O4 and N2O5. Nitrous oxide is a potent greenhouse gas and also causes damage to the ozone layer. N2O4 is a dimer in equilibrum with NO2 and N2O5 is very unstable, usually only present in significant quantities at night (it is broken by sunlight). [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/N/Non_methane_volatile_organic_compounds_NMVOC">
+<skos:prefLabel xml:lang="en">Non methane volatile organic compounds (NMVOC)</skos:prefLabel>
+<skos:definition>A group of chemicals (methane is excluded) that contain the element carbon in their molecular structure-i.e. they are &apos;organic&apos;. They easily vaporise at room temperature and most of them have no colour or smell. NMVOCs include in general the following chemical groups: alcohols, aldehydes, alkanes, aromatics, halocarbons and ketones and halogenated derivatives of these substances. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/O/Organotin_compounds">
+<skos:prefLabel xml:lang="en">Organotin compounds</skos:prefLabel>
+<skos:definition>These compounds are generally man-made chemicals. Physical properties, including odour and appearance, will depend on the specific compound. Triphenyltin compounds tend to be colourless solids with low vapour pressures, and have a low solubility in water. Tributyltin oxide is a colourless liquid that is slightly soluble in water. Dibutyltin chloride is a white solid that is soluble in hot water. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/P/PM10s_Particulates10mm">
+<skos:prefLabel xml:lang="en">PM10s (Particulates&lt;10mm)</skos:prefLabel>
+<skos:definition>PM10 particles are made up of a complex mixture of many different species including soot (carbon), sulphate particles, metals and inorganic salts such as sea salt. The particles vary in size and shape, up to 10 microns diameter. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/P/Pentachlorophenol_PCP">
+<skos:prefLabel xml:lang="en">Pentachlorophenol (PCP)</skos:prefLabel>
+<skos:definition>Pentachlorophenol is usually found as a grey brown powder, beads or flakes. It has a sharp chemical odour when hot but is almost odourless at room temperature. Pentachlorophenole is insoluble in water but dissolves readily in organic solvents, fats and oils. It is broken down in air and surface water by sunlight. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/P/Perfluorocarbons_PFCs">
+<skos:prefLabel xml:lang="en">Perfluorocarbons (PFCs)</skos:prefLabel>
+<skos:definition>Perfluorocarbons (PFCs) are man-made compounds containing just fluorine and carbon. They are generally colourless, odourless non-flammable gases at environmental temperatures and for the most part chemically unreactive. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/P/Phenols">
+<skos:prefLabel xml:lang="en">Phenols</skos:prefLabel>
+<skos:definition>Phenols are both naturally occurring chemicals and are manufactured by man. &apos;Phenol&apos; is the name of the simplest member of the family of chemicals of that generic name. Pure phenol is a colourless or white crystalline solid with a powerful sickly sweet antiseptic odour. Less pure product is usually found as pinkish crystals or liquid. Phenol melts at about 43 0C and boils at 182 0C. It is moderately soluble in water. Other members of the family include the chlorophenols, which tend to be far more persistent, toxic and bioaccumulative than non-chlorinated phenols.Phenols and its close relatives are widely distributed in nature, being produced naturally by plants and animals including humans. Naturally occurring phenols account for the flavour and colour of certain foods. Aspirin is derived from a natural plant phenol salicyclic acid. Phenols are also used by plants to make lignin, the main natural polymer in wood. Chlorinated phenols are believed to be almost entirely man-made in origin. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/P/Phosphorus%2C_total">
+<skos:prefLabel xml:lang="en">Phosphorus, total</skos:prefLabel>
+<skos:definition>Inorganic phosphates are compounds of phosphorus and oxygen that occur in many forms and are usually combined with other elements. Phosphoric acid, the common acid of phosphorus, is the main commercial source of inorganic phosphate compounds. Phosphoric acid is made by treating calcium phosphate rock, such as apatite, with sulfuric acid.Phosphoric acid is usually stored and sold as a solution. It is a brown/green viscous liquid with a slight acid odour. It is tribasic, having three replaceable hydrogen atoms. Phosphates are products formed by the replacement of some or all of the hydrogen of phosphoric acid by metals, such as sodium, potassium, calcium and aluminium. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/P/Polycyclic_aromatic_hydrocarbons_PAH">
+<skos:prefLabel xml:lang="en">Polycyclic aromatic hydrocarbons (PAH)</skos:prefLabel>
+<skos:definition>Polycyclic aromatic compounds (PAH) are a very large number of naturally occurring and man-made chemicals. The pure compounds are white or yellowish crystalline solids. They are insoluble in water but dissolve readily in fats and oils. Well-known PAHs are the compounds benzo[a]pyrene, fluoranthene, naphthaline or anthracene.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/S/Sulphur_hexafluoride_SF6">
+<skos:prefLabel xml:lang="en">Sulphur hexafluoride (SF6)</skos:prefLabel>
+<skos:definition>At environmental temperatures sulphur hexafluoride is a colourless, odourless, non-toxic gas of high chemical stability and inertness. It is also non-flammable and about 5 times heavier than air-one of the heaviest known gases. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/S/Sulphur_oxides_SOx">
+<skos:prefLabel xml:lang="en">Sulphur oxides (SOx)</skos:prefLabel>
+<skos:definition>The most common sulphur oxide is sulphur dioxide (SO2). Sulphur trioxide (SO3) is an intermediate product during the manufacture of sulphuric acid (contact process).Sulphur dioxide is a colourless gas with a penetrating, choking odour. It dissolves readily in water to form an acidic solution (sulphurous acid) and is about 2.5 times heavier than air. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/T/Tetrachloroethylene_PER">
+<skos:prefLabel xml:lang="en">Tetrachloroethylene (PER)</skos:prefLabel>
+<skos:definition>Tetrachloroethylene is a manufactured liquid, that evaporates easily into the air and has a sharp, sweet odour. It is colourless, almost insoluble in water, and non-flammable. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/T/Tetrachloromethane_TCM">
+<skos:prefLabel xml:lang="en">Tetrachloromethane (TCM)</skos:prefLabel>
+<skos:definition>Tetrachloromethane (carbon tetrachloride) is a manufactured compound consisting only of carbon and chlorine. It is usually found as a clear non-flammable volatile liquid, immiscible with water, with a sweet smell that can be detected at low levels. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/T/Total_Organic_Carbon_TOC">
+<skos:prefLabel xml:lang="en">Total Organic Carbon (TOC)</skos:prefLabel>
+<skos:definition>All of the organic (carbon-containing) substances in natural waters may be termed TOC. There are many natural and man-made substances that all contribute to TOC. TOC is partly broken down by micro-organisms, in the process consuming oxygen. At high TOC concentrations, so much oxygen in the water may be used up that there is not enough to support fish and other aquatic animals, which then die.TOC can be measured directly in samples of water by treating it with chemical oxidants and then measuring the amount of carbon dioxide released. Alternatively it can be measured by determining how much oxygen it uses up during its complete oxidation to carbon dioxide. This is expressed in terms of the Chemical Oxygen Demand (COD). On an average the ratio COD/TOC is about 3:1. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/T/Trichlorobenzenes_TCBs">
+<skos:prefLabel xml:lang="en">Trichlorobenzenes (TCBs)</skos:prefLabel>
+<skos:definition>Trichlorobenzenes are a mixture of the isomers 1,2,3-trichlorobenzene, 1,2,4-trichlorobenzene and 1,3,5-trichlorobenzene.Trichlorobenzenes are colourless liquids or crystalline solids, with an aromatic odour. They are sparingly soluble in water but miscible in organic solvents. They are non-flammable and decompose when heated to produce toxic gases. Boiling point is above 200 0C. Trichlorobenzenes are synthetic chemicals that do not occur in nature. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/T/Trichloroethylene_TRI">
+<skos:prefLabel xml:lang="en">Trichloroethylene (TRI)</skos:prefLabel>
+<skos:definition>Trichloroethylene is a manufactured chemical. It is a dense, colourless liquid, with a slightly sweet odour. It is poorly soluble in water, is highly volatile, and poorly flammable. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/T/Trichloromethane_Chloroform">
+<skos:prefLabel xml:lang="en">Trichloromethane (Chloroform)</skos:prefLabel>
+<skos:definition>Trichloromethane is a clear, colourless, volatile, non-flammable liquid with a characteristic odour. It evaporates very quickly and has limited solubility in water, but is miscible with most organic solvents. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER2/Z/Zinc_and_its_compounds">
+<skos:prefLabel xml:lang="en">Zinc and its compounds</skos:prefLabel>
+<skos:definition>Pure zinc is a bluish-white shiny metal. It is brittle at ordinary temperatures and is a fairly good conductor of electricity. It melts at 420 0C. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+</rdf:RDF>

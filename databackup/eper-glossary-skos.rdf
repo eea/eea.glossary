@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+            xml:lang="en">
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/A/Acid_rain">
+<skos:prefLabel xml:lang="en">Acid rain</skos:prefLabel>
+<skos:definition>Rain containing dissolved acidifying compounds, resulting from chemical pollution of the atmosphere by sulphur and nitrogen compounds. When deposited, these increase the acidity of the soil and water causing agricultural and ecological damage.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/A/Acidification">
+<skos:prefLabel xml:lang="en">Acidification</skos:prefLabel>
+<skos:definition>Change in an environment&apos;s natural chemical balance caused by an increase in the concentration of acidic elements. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/A/Aerosol">
+<skos:prefLabel xml:lang="en">Aerosol</skos:prefLabel>
+<skos:definition>System of solid or liquid particles suspended in a gaseous medium, having a negligible falling velocity.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/A/Annex_I_Activity">
+<skos:prefLabel xml:lang="en">Annex I Activity</skos:prefLabel>
+<skos:definition>Activity (industrial sector) listed in Annex I to the IPPC Directive 96/61/EC as aggregated and listed in Annex A3 of the EPER decision. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/B/BAT_best_avalable_techniques">
+<skos:prefLabel xml:lang="en">BAT (best avalable techniques)</skos:prefLabel>
+<skos:definition>The most effective and advanced stage in the development of activities and their methods of operation which indicate the practical suitability of particular techniques for providing in principle the basis for emission limit values designed to prevent and, where that is not practicable, generally to reduce emissions and impact on the environment as a whole.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/B/Biodegradable">
+<skos:prefLabel xml:lang="en">Biodegradable</skos:prefLabel>
+<skos:definition>Capable of decomposing rapidly by microorganisms under natural conditions (aerobic and/or anaerobic). Most organic materials, such as food scraps and paper are biodegradable.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/B/Biomass">
+<skos:prefLabel xml:lang="en">Biomass</skos:prefLabel>
+<skos:definition>The biodegradable fraction of products, waste and residues from agriculture (including vegetal and animal substances), forestry and related industries, as well as the biodegradable fraction of industrial and municipal waste.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/B/By-product">
+<skos:prefLabel xml:lang="en">By-product</skos:prefLabel>
+<skos:definition>A useful and marketable product or service deriving from a manufacturing process that is not the primary product or service being produced.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/C/CFCs_chlorofluorocarbons">
+<skos:prefLabel xml:lang="en">CFCs (chlorofluorocarbons)</skos:prefLabel>
+<skos:definition>Gases formed of chlorine, fluorine and carbon whose molecules normally do not react with other substances; they are therefore used as spray can propellants because they do not alter the material being sprayed.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/C/Catchment_area">
+<skos:prefLabel xml:lang="en">Catchment area</skos:prefLabel>
+<skos:definition>(1) An area from which surface runoff is carried away by a single drainage system. (2) The area of land bounded by watersheds draining into a river, basin or reservoir.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/C/Chemical_oxygen_demand">
+<skos:prefLabel xml:lang="en">Chemical oxygen demand</skos:prefLabel>
+<skos:definition>The quantity of oxygen used in biological and non-biological oxidation of materials in water; a measure of water quality.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/C/Climate_change">
+<skos:prefLabel xml:lang="en">Climate change</skos:prefLabel>
+<skos:definition>Climate change refers to any change in climate over time, whether due to natural variability or as a result of human activity. This usage differs from that in the United Nations Framework Convention on Climate Change (UNFCCC), which defines &apos;climate change&apos; as: &apos;a change of climate which is attributed directly or indirectly to human activity that alters the composition of the global atmosphere and which is in addition to natural climate variability observed over comparable time periods.&apos;  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/C/Cooling_water">
+<skos:prefLabel xml:lang="en">Cooling water</skos:prefLabel>
+<skos:definition>Water which is used to absorb and remove heat. Cooling water may be broken down into water used in the generation of electricity in power stations, and cooling water used in other industrial processes.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/C/Critical_load">
+<skos:prefLabel xml:lang="en">Critical load</skos:prefLabel>
+<skos:definition>(1) Carrying capacity is the ability of eco-systems/the earth to bear environmental load without significant damage. The threshold is the critical load. (2) The maximum load that a given system can tolerate before failing.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/D/Diffuse_pollution">
+<skos:prefLabel xml:lang="en">Diffuse pollution</skos:prefLabel>
+<skos:definition>Pollution from widespread activities with no one discrete source, e.g. acid rain, pesticides, urban run-off, etc.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/E/EPER">
+<skos:prefLabel xml:lang="en">EPER</skos:prefLabel>
+<skos:definition>European Pollutant Emission Register. Based on a  Commission  Decision of 17 July 2000 (2000/479/EC) on the implementation of a European Pollutant Emission Register (EPER) according to Article 15 of Council Directive 96/61/EC concerning integrated pollution prevention and control (IPPC). Article 15(3) of IPPC-Directive requires Member States to inventory and supply data on principal emissions and responsible sources. The Commission will publish the results of the inventory every three years and shall establish the formats and particulars for the transmission of information provided by the Member States. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/E/Ecosystem">
+<skos:prefLabel xml:lang="en">Ecosystem</skos:prefLabel>
+<skos:definition>A dynamic complex of plant, animal and micro-organism communities and their non-living environment interacting as a functional unit.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/E/Emission">
+<skos:prefLabel xml:lang="en">Emission</skos:prefLabel>
+<skos:definition>Direct release of a pollutant to air or water as well as the indirect release by transfer to an off-site waste water treatment plant [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/E/Emission_factor">
+<skos:prefLabel xml:lang="en">Emission factor</skos:prefLabel>
+<skos:definition>The estimated average emission rate of a given pollutant for a given source, relative to units of activity.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/E/Enrichment">
+<skos:prefLabel xml:lang="en">Enrichment</skos:prefLabel>
+<skos:definition>Addition of nitrogen, phosphorous and carbon compounds or other nutrients into a water body, thereby increasing the potential for growth of algae and other aquatic plants. Most frequently, enrichment results from the inflow of sewage effluents or from agricultural run-off.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/E/European_Environment_Agency_EEA">
+<skos:prefLabel xml:lang="en">European Environment Agency (EEA)</skos:prefLabel>
+<skos:definition>The European Environment Agency (EEA) was established by Regulation (EEC) No 1210/1990, amended by Regulation (EEC) No 933/1990, and has been operational since 1994. The EEA aims to support sustainable development and to help achieve significant and measurable improvement in Europe&apos;s environment through the provision of timely, targeted, relevant and reliable information to policy-making agents and the public. The Agency processes data from the member countries to knowledge at European level, and co-operates with the European environment information and observation network (Eionet) and other international partners to gather, process and distribute data and information.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/E/Eutrophication">
+<skos:prefLabel xml:lang="en">Eutrophication</skos:prefLabel>
+<skos:definition>Excessive enrichment of waters with nutrients, and the associated adverse biological effects.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/F/Facility">
+<skos:prefLabel xml:lang="en">Facility</skos:prefLabel>
+<skos:definition>Industrial complex with one or more installations on the same site, where one operator carries out one or more Annex I activities. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/F/Food_chain">
+<skos:prefLabel xml:lang="en">Food chain</skos:prefLabel>
+<skos:definition>Sequence of organisms each of which uses the next lower member of the sequence as a food source.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/F/Fossil_fuel">
+<skos:prefLabel xml:lang="en">Fossil fuel</skos:prefLabel>
+<skos:definition>Coal, natural gas and petroleum products (such as oil) formed from the decayed bodies of animals and plants that died millions of years ago.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/F/Fugitive_emission">
+<skos:prefLabel xml:lang="en">Fugitive emission</skos:prefLabel>
+<skos:definition>Emissions not caught by a capture system which are often due to equipment leaks, evaporative processes and windblown disturbances. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/G/Global_Warming">
+<skos:prefLabel xml:lang="en">Global Warming</skos:prefLabel>
+<skos:definition>Changes in the surface-air temperature, referred to as the global temperature, brought about by the greenhouse effect which is induced by emission of greenhouse gases into the air.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/G/Greenhouse_gas">
+<skos:prefLabel xml:lang="en">Greenhouse gas</skos:prefLabel>
+<skos:definition>A gas that contributes to the natural greenhouse effect. The Kyoto Protocol covers a basket of six greenhouse gases (GHGs) produced by human activities: carbon dioxide, methane, nitrous oxide, hydrofluorocarbons, perfluorocarbons and sulphur hexafluoride. Annex I Parties&apos; emissions of these gases taken together are to be measured in terms of carbon dioxide equivalents on the basis of the gases&apos; global warming potential. An important natural GHG that is not covered by the protocol is water vapour.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/G/Groundwater">
+<skos:prefLabel xml:lang="en">Groundwater</skos:prefLabel>
+<skos:definition>All water which is below the surface of the ground in the saturation zone and in direct contact with the ground of the soil.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/H/Halons">
+<skos:prefLabel xml:lang="en">Halons</skos:prefLabel>
+<skos:definition>Bromine-containing compounds with long atmospheric lifetimes whose breakdown in the stratosphere causes depletion of ozone. Halons are used in fire-fighting.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/H/Hazard">
+<skos:prefLabel xml:lang="en">Hazard</skos:prefLabel>
+<skos:definition>A threatening event, or the probability of occurrence of a potentially damaging phenomenon within a given time period and area.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/H/Herbicide">
+<skos:prefLabel xml:lang="en">Herbicide</skos:prefLabel>
+<skos:definition>A chemical that controls or destroys undesirable plants. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/I/Incineration_of_waste">
+<skos:prefLabel xml:lang="en">Incineration (of waste)</skos:prefLabel>
+<skos:definition>The process of burning solid waste under controlled conditions to reduce its weight and volume, and often to produce energy.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/I/Installation">
+<skos:prefLabel xml:lang="en">Installation</skos:prefLabel>
+<skos:definition>Stationary technical unit, where one or more activities listed in Annex I to the IPPC Directive are carried out, and any other directly associated activities, which have a technical connection with the activities carried out on that site and which could have an effect on emissions and pollution. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/I/Integrated_Pollution_Prevention_and_Control">
+<skos:prefLabel xml:lang="en">Integrated Pollution Prevention and Control</skos:prefLabel>
+<skos:definition>Legal process, by which large industrial processes are licensed and regulated, refers specifically to the requirements of the European Commission&apos;s IPPC (integrated pollution prevention and control) Directive (96/61/EC).  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/L/Landfill">
+<skos:prefLabel xml:lang="en">Landfill</skos:prefLabel>
+<skos:definition>A waste disposal site for the deposit of the waste onto or into land (i.e. underground).  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/M/Manure">
+<skos:prefLabel xml:lang="en">Manure</skos:prefLabel>
+<skos:definition>Animal excreta collected from stables and barnyards with or without litter; used to enrich the soil.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/M/Mining_waste">
+<skos:prefLabel xml:lang="en">Mining waste</skos:prefLabel>
+<skos:definition>Any residue which results from the extraction of raw materials from the earth. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/M/Monitoring">
+<skos:prefLabel xml:lang="en">Monitoring</skos:prefLabel>
+<skos:definition>(1) A combination of observation and measurement for the performance of a plan, programme or measure, and its compliance with environmental policy and legislation. (2) The provision of the necessary information about progress of implementation of a project, plan, etc. in order to ensure that project management and co-operation partners are able to follow the implementation of the projects and if necessary adjust activities, inputs and budgets, in order to obtain the objectives laid down for the project.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/M/Municipal_waste">
+<skos:prefLabel xml:lang="en">Municipal waste</skos:prefLabel>
+<skos:definition>Waste from households, as well as other waste, which, because of its nature or composition, is similar to waste from household.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/M/Municipal_waste_water">
+<skos:prefLabel xml:lang="en">Municipal waste water</skos:prefLabel>
+<skos:definition>Discharge of effluent from wastewater treatment plants, which receive wastewater from households, commercial establishments, and industries. Combined sewer/separate storm overflows are included in this category.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/N/NACE_code">
+<skos:prefLabel xml:lang="en">NACE code</skos:prefLabel>
+<skos:definition>Standard nomenclature for economic activities. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/N/NOSE-P_code">
+<skos:prefLabel xml:lang="en">NOSE-P code</skos:prefLabel>
+<skos:definition>Standard nomenclature for sources of emission. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/N/Nutrient_removal">
+<skos:prefLabel xml:lang="en">Nutrient removal</skos:prefLabel>
+<skos:definition>Elimination of nutrients from wastewater in order to prevent water eutrophication.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/O/Ozone">
+<skos:prefLabel xml:lang="en">Ozone</skos:prefLabel>
+<skos:definition>Ozone, the triatomic form of oxygen (O3), is a gaseous atmospheric constituent. In the troposphere, it is created both naturally and by photochemical reactions involving gases resulting from human activities (photochemical smog). In high concentrations, tropospheric ozone can be harmful to a wide range of living organisms. Tropospheric ozone acts as a greenhouse gas. In the stratosphere, ozone is created by the interaction between solar ultraviolet radiation and molecular oxygen (O2). Stratospheric ozone plays a decisive role in the stratospheric radiative balance. Depletion of stratospheric ozone, due to chemical reactions that may be enhanced by climate change, results in an increased ground-level flux of ultraviolet radiation.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/O/Ozone-depleting_substance">
+<skos:prefLabel xml:lang="en">Ozone-depleting substance</skos:prefLabel>
+<skos:definition>A compound that contributes to stratospheric ozone depletion. Ozone-depleting substances (ODS) include CFCs, HCFCs, halons, methyl bromide, carbon tetrachloride, and methyl chloroform. ODS are generally very stable in the troposphere and only degrade under intense ultraviolet light in the stratosphere. When they break down, they release chlorine or bromine atoms, which then deplete ozone.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/P/Pesticide">
+<skos:prefLabel xml:lang="en">Pesticide</skos:prefLabel>
+<skos:definition>Substances or mixture thereof intended for preventing, destroying, repelling, or mitigating any pest. Also, any substance or mixture intended for use as a plant regulator, defoliant, or desiccant.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/P/Pollutant">
+<skos:prefLabel xml:lang="en">Pollutant</skos:prefLabel>
+<skos:definition>Individual substance or group of substances as listed in Annex A 1 of the EPER Decision. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/P/Pollution_load">
+<skos:prefLabel xml:lang="en">Pollution load</skos:prefLabel>
+<skos:definition>The amount of stress placed upon an ecosystem by pollution, physical or chemical, released into it by man-made or natural means.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/R/Recycling">
+<skos:prefLabel xml:lang="en">Recycling</skos:prefLabel>
+<skos:definition>(1) A resource recovery method involving the collection and treatment of a waste product for use as raw material in the manufacture of the same or a similar product. (2) the EU waste strategy distinguishes between: reuse meant as a material reuse without any structural changes in materials; recycling meant as a material recycling, only, and with a reference to structural changes in products; and recovery meant as an energy recovery only.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/R/Reporting_cycle">
+<skos:prefLabel xml:lang="en">Reporting cycle</skos:prefLabel>
+<skos:definition>Cycle of the total reporting process, consisting of the collection, validation. submission, management and dissemination of the reported data. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/R/Reuse">
+<skos:prefLabel xml:lang="en">Reuse</skos:prefLabel>
+<skos:definition>Material reuse without any structural changes in materials.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/R/Risk">
+<skos:prefLabel xml:lang="en">Risk</skos:prefLabel>
+<skos:definition>Expected losses (of lives, persons injured, property damaged and economic activity disrupted) due to a particular hazard for a given area and reference period. Based on mathematical calculations, risk is the product of hazard and vulnerability.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/R/River_basin">
+<skos:prefLabel xml:lang="en">River basin</skos:prefLabel>
+<skos:definition>The area of land from which all surface run-off flows through a sequence of streams, rivers and, possibly, lakes into the sea at a single river mouth, estuary or delta.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/S/Sewage">
+<skos:prefLabel xml:lang="en">Sewage</skos:prefLabel>
+<skos:definition>Wastewater produced by residential and commercial establishments and discharged into sewers. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/S/Sewer">
+<skos:prefLabel xml:lang="en">Sewer</skos:prefLabel>
+<skos:definition>Channel or conduit that carries wastewater, sewage and storm water from their source to a treatment plant or receiving stream. A sanitary sewer conveys household and commercial wastes, a storm sewer transports rain run-off and a combined sewer is used for both purposes.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/S/Site">
+<skos:prefLabel xml:lang="en">Site</skos:prefLabel>
+<skos:definition>Geographical location of the facility. [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/S/Sludge">
+<skos:prefLabel xml:lang="en">Sludge</skos:prefLabel>
+<skos:definition>A semifluid mass of sediment resulting from treatment of water, sewage and/or other wastes.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/S/Surface_water">
+<skos:prefLabel xml:lang="en">Surface water</skos:prefLabel>
+<skos:definition>All waters on the surface of the Earth found in rivers, streams, ponds, lakes, marshes, wetlands, as ice and snow, and transitional, coastal and marine waters.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/W/Waste">
+<skos:prefLabel xml:lang="en">Waste</skos:prefLabel>
+<skos:definition>Materials that are not prime products (that is, products produced for the market) for which the generator has no further use in terms of his/her own purposes of production, transformation or consumption, and of which he/she wants to dispose. Wastes may be generated during the extraction of raw materials, the processing of raw materials into intermediate and final products, the consumption of final products, and other human activities. Residuals recycled or reused at the place of generation are excluded.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/W/Waste_disposal">
+<skos:prefLabel xml:lang="en">Waste disposal</skos:prefLabel>
+<skos:definition>The collection, sorting, transport and treatment of waste as well as its storage and tipping above or under ground.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/W/Water_Framework_Directive">
+<skos:prefLabel xml:lang="en">Water Framework Directive</skos:prefLabel>
+<skos:definition>Directive 2000/60/EC establishing a framework for the Community action in the field of water policy. It aims to secure the ecological, quantitative and qualitative functions of water. It requires that all impacts on water will have to be analysed and actions will have to be taken within river basin management plans.  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+<skos:Concept rdf:about="http://glossary.eea.europa.eu/EPER/W/Water_supply">
+<skos:prefLabel xml:lang="en">Water supply</skos:prefLabel>
+<skos:definition>Water supply refers to the share of water abstraction which is supplied to users (excluding losses in storage, conveyance and distribution).  [definition source: dataservice, http://dataservice.eea.eu.int]</skos:definition>
+</skos:Concept>
+</rdf:RDF>
