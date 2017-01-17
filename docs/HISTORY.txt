@@ -3,14 +3,14 @@ Changelog
 
 1.1.dev0 - (unreleased)
 -----------------------
-* faceted navigation conf added to the upgrades folder
+* Change: Faceted navigation conf added to the upgrades folder
   [valipod refs #79823]
-* data import script fix for mismatched file and object ids
+* Change: Data import script fix for mismatched file and object ids
   [valipod refs #79966]
 
 1.0 - (2016-12-28)
 ------------------
-* Initial release (with adaptations of collective.glossary)
+* Feature: Initial release (with adaptations of collective.glossary)
     - Renaming to eea.glossary
     - adding several new properties to the term
     - adding a new object "Synonym"
