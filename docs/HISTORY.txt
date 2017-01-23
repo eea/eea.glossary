@@ -3,6 +3,12 @@ Changelog
 
 1.1.dev0 - (unreleased)
 -----------------------
+* Bug fix: fix for publication year missing on import
+  [valipod refs #79823]
+* Bug fix: import approved items as published, not approved as copy-editing
+  [valipod refs #79823]
+* Change: skip arhetypes relations
+  [valipod refs #79823]
 * Change: Faceted navigation conf added to the upgrades folder
   [valipod refs #79823]
 * Change: Data import script fix for mismatched file and object ids

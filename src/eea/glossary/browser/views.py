@@ -26,6 +26,10 @@ class TermView(BrowserView):
 
     """Default view for Term type"""
 
+    def __call__(self, **kwargs):
+        self.request.set('skipRelations', 1)
+        return self.index()
+
     def __init__(self, context, request):
         self.context = context
         self.request = request
@@ -78,6 +82,10 @@ class SynonymView(BrowserView):
 
     """Default view for Synonym type"""
 
+    def __call__(self, **kwargs):
+        self.request.set('skipRelations', 1)
+        return self.index()
+
     def __init__(self, context, request):
         self.context = context
         self.request = request
@@ -99,6 +107,10 @@ class SynonymView(BrowserView):
 class GlossaryView(BrowserView):
 
     """Default view of Glossary type"""
+
+    def __call__(self, **kwargs):
+        self.request.set('skipRelations', 1)
+        return self.index()
 
     def __init__(self, context, request):
         self.context = context

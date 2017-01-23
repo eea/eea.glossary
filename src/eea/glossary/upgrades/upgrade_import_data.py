@@ -21,10 +21,11 @@ def import_from_json(self):
 
         site = self.aq_parent.SITE
         glossary = getattr(site, g_id, None)
+        wftool = site.portal_workflow
         if not glossary:
-            createContentInContainer(site, 'Glossary',
-                                     title=g_title)
-            glossary = getattr(site, g_id)
+            glossary = createContentInContainer(site, 'Glossary',
+                                                title=g_title)
+            wftool.doActionFor(glossary, 'publish')
         if glossary.objectValues():
             logger.info('Glossary % not empty, import cancelled' % g_title)
             continue
@@ -34,6 +35,9 @@ def import_from_json(self):
             term = data['EEA Glossary Term'][term_id]
             if not term['name']:
                 continue
+            publication_year = term['definition_source_publ_year']
+            if not publication_year:
+                publication_year = None
             ob = createContentInContainer(
                 glossary, 'Term',
                 title=term['name'],
@@ -44,13 +48,15 @@ def import_from_json(self):
                 subjects=[subject['code'] for subject in term['subjects']],
                 definition_source_url=term['definition_source_url'],
                 context=term['el_context'],
-                publication_year=term['definition_source_publ_year'],
+                publication_year=publication_year,
                 qa_needed=term['QA_needed'] in [1, u'on'],
                 long_definition=term['long_definition'],
                 organisation=term['definition_source_org'],
                 source=term['source'],
                 description=term['definition'])
             term_count += 1
+            if term.get('approved'):
+                wftool.doActionFor(ob, 'publish')
             data['EEA Glossary Term'][term_id]['new_id'] = ob.getId()
         logger.info('Imported %s terms into glossary %s' % (term_count,
                                                             g_title))
