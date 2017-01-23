@@ -23,9 +23,9 @@ def import_from_json(self):
         glossary = getattr(site, g_id, None)
         wftool = site.portal_workflow
         if not glossary:
-            createContentInContainer(site, 'Glossary',
-                                     title=g_title)
-            glossary = getattr(site, g_id)
+            glossary = createContentInContainer(site, 'Glossary',
+                                                title=g_title)
+            wftool.doActionFor(glossary, 'publish')
         if glossary.objectValues():
             logger.info('Glossary % not empty, import cancelled' % g_title)
             continue
