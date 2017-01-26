@@ -222,9 +222,14 @@ class JsonView(BrowserView):
         catalog = api.portal.get_tool('portal_catalog')
 
         items = []
-        for brain in catalog(portal_type=['Term', 'Synonym']):
+        for brain in catalog(portal_type=['Term']):
             items.append({
                 'term': brain.Title,
+                'description': brain.Description,
+            })
+        for brain in catalog(portal_type=['Synonym']):
+            items.append({
+                'synonym': brain.Title,
                 'description': brain.Description,
             })
 

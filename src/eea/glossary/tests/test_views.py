@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
+from z3c.relationfield import RelationValue
+from zope.intid.interfaces import IIntIds
 from eea.glossary.interfaces import IGlossarySettings
 from eea.glossary.testing import INTEGRATION_TESTING
 from plone import api
 from zope.publisher.browser import TestRequest
+from zope.component import getUtility
 
 import unittest
 
@@ -15,6 +18,7 @@ class BaseViewTestCase(unittest.TestCase):
         self.app = self.layer['app']
         self.portal = self.layer['portal']
         self.request = self.layer['request']
+        intids = getUtility(IIntIds)
 
         with api.env.adopt_roles(['Manager']):
             self.g1 = api.content.create(
@@ -25,22 +29,48 @@ class BaseViewTestCase(unittest.TestCase):
             self.t1 = api.content.create(
                 self.g1, 'Term', 't1',
                 title='First Term',
-                description='First Term Description'
+                description='First Term Description',
+                comment='First Term Comment',
+                context='First Term Context',
+                disabled= False,
+                qa_needed= False,
+                long_definition='First Term Long Definition',
+                organisation_fullname='First Term Organisation Full Name',
+                organisation='First Term Organisation',
+                publication_year=2000,
+                source='First Term Source',
+                subjects=['NATBIO'],
+                definition_source_url='First Term Definition Source URL',
+                definition_source_publication='First Term Definition Source Publication',
             )
             self.t2 = api.content.create(
                 self.g1, 'Term', 't2',
                 title='Second Term',
-                description='Second Term Description'
+                description='Second Term Description',
+                comment='Second Term Comment',
+                context='Second Term Context',
+                disabled= False,
+                qa_needed= False,
+                long_definition='Second Term Long Definition',
+                organisation_fullname='Second Term Organisation Full Name',
+                organisation='Second Term Organisation',
+                publication_year=2001,
+                source='Second Term Source',
+                subjects=['NATBIO'],
+                definition_source_url='Second Term Definition Source',
+                definition_source_publication='Second Term Definition Source Publication'
             )
             self.s1 = api.content.create(
                 self.g1, 'Synonym', 's1',
                 title='First Synonym',
-                description='First Synonym Description'
+                description='First Synonym Description',
+                term=RelationValue(intids.getId(self.t1))
             )
-            self.t2 = api.content.create(
+            self.s2 = api.content.create(
                 self.g1, 'Synonym', 's2',
                 title='Second Synonym',
-                description='Second Synonym Description'
+                description='Second Synonym Description',
+                term=RelationValue(intids.getId(self.t1))
             )
             self.d1 = api.content.create(
                 self.portal, 'Document', 'd1',
@@ -58,8 +88,20 @@ class TermViewTestCase(BaseViewTestCase):
     def test_get_entry(self):
         self.assertEqual(
             self.view.get_entry(),
-            {'description': 'First Term Description',
-             'title': 'First Term'}
+            {'description': u'First Term Description',
+             'comment': 'First Term Comment',
+             'context': 'First Term Context',
+             'disabled': False,
+             'qa_needed': False,
+             'long_definition': 'First Term Long Definition',
+             'organisation_fullname': 'First Term Organisation Full Name',
+             'organisation': 'First Term Organisation',
+             'publication_year': 2000,
+             'source': 'First Term Source',
+             'subjects': ['NATBIO'],
+             'definition_source_url': 'First Term Definition Source URL',
+             'definition_source_publication': 'First Term Definition Source Publication',
+             'title': u'First Term'}
         )
 
 
@@ -70,11 +112,14 @@ class SynonymViewTestCase(BaseViewTestCase):
         self.view = api.content.get_view(u'view', self.s1, self.request)
 
     def test_get_entry(self):
+        entry = self.view.get_entry()
+        term = entry.pop('term')
         self.assertEqual(
-            self.view.get_entry(),
+            entry,
             {'description': 'First Synonym Description',
              'title': 'First Synonym'}
         )
+        self.assertTrue(isinstance(term, RelationValue))
 
 
 class GlossaryViewTestCase(BaseViewTestCase):
@@ -88,16 +133,16 @@ class GlossaryViewTestCase(BaseViewTestCase):
             self.view.get_entries(),
             {
                 'F': [
-                    {'description': 'First Synonym Description',
-                     'title': 'First Term'},
-                    {'description': 'First Term Description',
-                     'title': 'First Term'}
+                    {'description': u'First Synonym Description',
+                     'title': u'First Synonym'},
+                    {'description': u'First Term Description',
+                     'title': u'First Term'}
                 ],
                 'S': [
-                    {'description': 'Second Term Description',
-                     'title': 'Second Term'},
-                    {'description': 'Second Synonym Description',
-                     'title': 'Second Term'}
+                    {'description': u'Second Synonym Description',
+                     'title': u'Second Synonym'},
+                    {'description': u'Second Term Description',
+                     'title': u'Second Term'}
                 ]
             }
         )
@@ -213,12 +258,12 @@ class JsonViewTestCase(BaseViewTestCase):
     def test_get_json_entries(self):
         self.assertEqual(
             self.view.get_json_entries(),
-            [{'description': 'First Synonym Description',
+            [{'description': 'First Term Description', 'term': 'First Term'},
+             {'description': 'Second Term Description', 'term': 'Second Term'},
+             {'description': 'First Synonym Description',
               'synonym': 'First Synonym'},
-             {'description': 'First Term Description', 'term': 'First Term'},
              {'description': 'Second Synonym Description',
-              'synonym': 'Second Synonym'},
-             {'description': 'Second Term Description', 'term': 'Second Term'}]
+              'synonym': 'Second Synonym'}]
         )
 
     def test__call__(self):
@@ -228,10 +273,10 @@ class JsonViewTestCase(BaseViewTestCase):
         result = self.view.request.response.getBody()
         self.assertEqual(
             json.loads(result),
-            [{'description': 'First Synonym Description',
-              'synonym': 'First Synonym'},
-             {'description': 'First Term Description', 'term': 'First Term'},
-             {'description': 'Second Synonym Description',
-              'synonym': 'Second Synonym'},
-             {'description': 'Second Term Description', 'term': 'Second Term'}]
+            [{u'description': u'First Term Description', u'term': u'First Term'},
+             {u'description': u'Second Term Description', u'term': u'Second Term'},
+             {u'description': u'First Synonym Description',
+              u'synonym': u'First Synonym'},
+             {u'description': u'Second Synonym Description',
+              u'synonym': u'Second Synonym'}]
         )
