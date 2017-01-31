@@ -1,8 +1,11 @@
 Changelog
 =========
 
-1.1.dev0 - (unreleased)
+1.2.dev0 - (unreleased)
 -----------------------
+
+1.1 - (2017-01-30)
+------------------
 * Bug fix: fixed tests
   [valipod refs #79823]
 * Bug fix: fix for publication year missing on import
