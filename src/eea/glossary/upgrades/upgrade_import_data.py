@@ -67,7 +67,6 @@ def import_from_json(self):
                 definition_source_url=term['definition_source_url'],
                 context=term['el_context'],
                 publication_year=publication_year,
-                qa_needed=term['QA_needed'] in [1, u'on'],
                 long_definition=term['long_definition'],
                 organisation=term['definition_source_org'],
                 source=term['source'],

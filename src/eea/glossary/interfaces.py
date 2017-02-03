@@ -104,21 +104,9 @@ class ITerm(Interface):
         required=False,
     )
 
-    disabled = schema.Bool(
-        title=_(u"Disabled"),
-        required=False,
-        default=False,
-    )
-
     long_definition = schema.Text(
         title=_(u'Long definition'),
         required=False,
-    )
-
-    qa_needed = schema.Bool(
-        title=_(u"QA needed"),
-        required=False,
-        default=False,
     )
 
 

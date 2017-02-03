@@ -50,9 +50,7 @@ class TermView(BrowserView):
             'organisation': self.context.organisation,
             'organisation_fullname': self.context.organisation_fullname,
             'subjects': self.context.subjects,
-            'disabled': self.context.disabled,
             'long_definition': self.context.long_definition,
-            'qa_needed': self.context.qa_needed,
         }
         return item
 

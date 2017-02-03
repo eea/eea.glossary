@@ -83,13 +83,6 @@
               <dd>
                   <span tal:content="item/long_definition" />
               </dd>
-              <dt>
-                  <span>QA needed</span>
-              </dt>
-              <dd>
-                  <span tal:condition="item/qa_needed">Yes</span>
-                  <span tal:condition="not:item/qa_needed">No</span>
-              </dd>
             </div>
           </div>
         </div>
