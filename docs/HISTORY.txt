@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.2.dev0 - (unreleased)
------------------------
+1.2 - (2017-02-14)
+------------------
 * Upgrade step: create all other glossaries from glossary.eea.europa.eu
   [valipod refs:#79821]
 
