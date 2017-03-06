@@ -1,5 +1,5 @@
-# Script used to check which properties from the json have useful values
-# and need to be imported.
+''' Script used to check which properties from the json have useful values
+ and need to be imported. '''
 
 import json
 

@@ -1,3 +1,4 @@
+''' Constants module '''
 from eea.glossary import _
 
 

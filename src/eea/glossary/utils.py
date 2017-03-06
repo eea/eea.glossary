@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
+''' utils module '''
 from zope.globalrequest import getRequest
 
 
 def get_request_information():
+    ''' returns authenticated user and his IP '''
     try:
         request = getRequest()
         user = request['AUTHENTICATED_USER']

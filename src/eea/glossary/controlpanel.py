@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+''' Control panel classes '''
 from eea.glossary import _
 from eea.glossary.interfaces import IGlossarySettings
 from plone.app.registry.browser import controlpanel

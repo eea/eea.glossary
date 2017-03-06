@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from eea.glossary.config import PROJECTNAME
-
+''' logger module '''
 import logging
+from eea.glossary.config import PROJECTNAME
 
 logger = logging.getLogger(PROJECTNAME)

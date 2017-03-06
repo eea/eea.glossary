@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+''' content classes '''
 from eea.glossary.interfaces import IGlossary
 from eea.glossary.interfaces import ITerm
 from eea.glossary.interfaces import ISynonym

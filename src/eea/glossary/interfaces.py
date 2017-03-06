@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+''' interfaces module'''
+
 from zope import schema
 from zope.interface import Interface
 from zope.schema.vocabulary import SimpleVocabulary, SimpleTerm
@@ -9,7 +11,7 @@ from z3c.relationfield.schema import RelationChoice
 
 from eea.glossary import _
 from eea.glossary.config import DEFAULT_ENABLED_CONTENT_TYPES
-from constants import SUBJECTS
+from eea.glossary.constants import SUBJECTS
 
 
 subjects = SimpleVocabulary([SimpleTerm(value=value, title=title)

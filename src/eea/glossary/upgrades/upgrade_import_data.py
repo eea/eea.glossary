@@ -1,3 +1,4 @@
+''' upgrade from json module '''
 import json
 import os.path
 import logging
@@ -6,7 +7,6 @@ from zope.component import getUtility
 from zope.intid.interfaces import IIntIds
 
 from plone.dexterity.utils import createContentInContainer
-from eea.glossary.logger import logger as glossary_logger
 
 GLOSSARIES = [('eea-glossary', 'EEA Glossary',
               'http://glossary.eea.europa.eu/EEAGlossary'),
@@ -54,11 +54,14 @@ ALISS_PROPS = [('definition', 'description'),
 
 logger = logging.getLogger('Plone')
 
+
 def json_path(filename):
+    ''' get the path of the json file '''
     return os.path.join(os.path.dirname(__file__), 'json_files', filename)
 
 
 def import_from_json(self):
+    ''' import the data from json '''
     site = self.aq_parent.SITE
     glossary_parent = site.help.glossary
     wftool = site.portal_workflow
@@ -69,7 +72,7 @@ def import_from_json(self):
                                                 title=g_title)
             wftool.doActionFor(glossary, 'publish')
         if glossary.objectValues():
-            logger.info('Glossary %s not empty, import cancelled' % g_title)
+            logger.info('Glossary %s not empty, import cancelled', g_title)
             continue
         data = json.load(open(json_path('%s.json' % g_id)))
         term_count = 0
@@ -80,7 +83,7 @@ def import_from_json(self):
                 publication_year = int(term['definition_source_publ_year'])
                 if not publication_year:
                     publication_year = None
-            except:
+            except (ValueError, TypeError):
                 publication_year = None
             ob = createContentInContainer(
                 glossary, 'Term',
@@ -98,13 +101,12 @@ def import_from_json(self):
                 source=term['source'] or g_title,
                 description=term['definition'])
             term_count += 1
-            logger.info('%s imported out of %s (%s)' % (
-                term_count, len(data['EEA Glossary Term'].items()), g_id))
+            logger.info('%s imported out of %s (%s)', term_count,
+                        len(data['EEA Glossary Term'].items()), g_id)
             if term.get('approved'):
                 wftool.doActionFor(ob, 'publish')
             data['EEA Glossary Term'][term_id]['new_id'] = ob.getId()
-        logger.info('Imported %s terms into glossary %s' % (term_count,
-                                                            g_title))
+        logger.info('Imported %s terms into glossary %s', term_count, g_title)
         intids = getUtility(IIntIds)
         synonym_count = 0
         for synonym_id in data['EEA Glossary Synonym']:
@@ -116,12 +118,10 @@ def import_from_json(self):
                 glossary, 'Synonym', title=synonym['name'],
                 term=RelationValue(intids.getId(term)))
             synonym_count += 1
-            logger.info('%s synonyms imported out of %s (%s)' % (
-                synonym_count,
-                len(data['EEA Glossary Synonym'].items()),
-                g_id))
-        logger.info('Imported %s synonyms into glossary %s' % (synonym_count,
-                                                               g_title))
+            logger.info('%s synonyms imported out of %s (%s)', synonym_count,
+                        len(data['EEA Glossary Synonym'].items()), g_id)
+        logger.info('Imported %s synonyms into glossary %s',
+                    synonym_count, g_title)
 
     for g_id, g_title, url in ALISS:
         glossary = getattr(glossary_parent, g_id, None)
@@ -129,9 +129,9 @@ def import_from_json(self):
             glossary = createContentInContainer(glossary_parent, 'Glossary',
                                                 title=g_title)
             wftool.doActionFor(glossary, 'publish')
-            logger.info('%s Glossary created' %g_id)
+            logger.info('%s Glossary created', g_id)
         if glossary.objectValues():
-            logger.info('Glossary %s not empty, import cancelled' % g_title)
+            logger.info('Glossary %s not empty, import cancelled', g_title)
             continue
         data = json.load(open(json_path('%s.json' % g_id)))
         term_count = 0
@@ -146,8 +146,7 @@ def import_from_json(self):
                 definition_source_url=term.get('url') or url,
                 source=term.get('source') or g_title)
             term_count += 1
-            logger.info('%s terms imported out of %s (%s)' % (
-                term_count, len(data.items()), g_id))
+            logger.info('%s terms imported out of %s (%s)',
+                        term_count, len(data.items()), g_id)
             wftool.doActionFor(ob, 'publish')
-        logger.info('Imported %s terms into glossary %s' % (term_count,
-                                                            g_title))
+        logger.info('Imported %s terms into glossary %s', term_count, g_title)

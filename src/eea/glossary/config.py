@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+''' Config module '''
 PROJECTNAME = 'eea.glossary'
 
 # by default, all standard content types will be enabled

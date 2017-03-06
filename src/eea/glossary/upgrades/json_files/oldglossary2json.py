@@ -1,7 +1,8 @@
-# This script was used to export data from the old glossaries in zope
-# debug mode with the Data.fs from production
+''' This script was used to export data from the old glossaries in zope
+ debug mode with the Data.fs from production. Commented, since it is not a
+ valid module, can only be run in console '''
 
-import simplejson as json
+'''import simplejson as json
 for glo_id in ['EPER', 'EPER2', 'EEAGlossary']:
     glo = getattr(app, glo_id)
     data = {'EEA Glossary Element': {}, 'EEA Glossary Synonym': {}}
@@ -30,4 +31,4 @@ for glo_id in ['EPER', 'EPER2', 'EEAGlossary']:
                         count += 1
         filename = '%s.json' % glo_id
         with open(filename, 'wb') as f:
-            f.write(json.dumps(data))
+            f.write(json.dumps(data))'''

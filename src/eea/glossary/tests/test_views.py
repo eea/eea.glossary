@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+''' test views module  '''
+import unittest
 from z3c.relationfield import RelationValue
 from zope.intid.interfaces import IIntIds
 from eea.glossary.interfaces import IGlossarySettings
@@ -7,10 +9,9 @@ from plone import api
 from zope.publisher.browser import TestRequest
 from zope.component import getUtility
 
-import unittest
-
 
 class BaseViewTestCase(unittest.TestCase):
+    ''' Base View test case '''
 
     layer = INTEGRATION_TESTING
 
@@ -39,7 +40,8 @@ class BaseViewTestCase(unittest.TestCase):
                 source='First Term Source',
                 subjects=['NATBIO'],
                 definition_source_url='First Term Definition Source URL',
-                definition_source_publication='First Term Definition Source Publication',
+                definition_source_publication=(
+                    'First Term Definition Source Publication'),
             )
             self.t2 = api.content.create(
                 self.g1, 'Term', 't2',
@@ -54,7 +56,8 @@ class BaseViewTestCase(unittest.TestCase):
                 source='Second Term Source',
                 subjects=['NATBIO'],
                 definition_source_url='Second Term Definition Source',
-                definition_source_publication='Second Term Definition Source Publication'
+                definition_source_publication=(
+                    'Second Term Definition Source Publication')
             )
             self.s1 = api.content.create(
                 self.g1, 'Synonym', 's1',
@@ -76,12 +79,14 @@ class BaseViewTestCase(unittest.TestCase):
 
 
 class TermViewTestCase(BaseViewTestCase):
+    ''' Term View Test Case '''
 
     def setUp(self):
         super(TermViewTestCase, self).setUp()
         self.view = api.content.get_view(u'view', self.t1, self.request)
 
     def test_get_entry(self):
+        ''' test get entry '''
         self.assertEqual(
             self.view.get_entry(),
             {'description': u'First Term Description',
@@ -94,18 +99,21 @@ class TermViewTestCase(BaseViewTestCase):
              'source': 'First Term Source',
              'subjects': ['NATBIO'],
              'definition_source_url': 'First Term Definition Source URL',
-             'definition_source_publication': 'First Term Definition Source Publication',
+             'definition_source_publication':
+                'First Term Definition Source Publication',
              'title': u'First Term'}
         )
 
 
 class SynonymViewTestCase(BaseViewTestCase):
+    ''' Synonym view test case '''
 
     def setUp(self):
         super(SynonymViewTestCase, self).setUp()
         self.view = api.content.get_view(u'view', self.s1, self.request)
 
     def test_get_entry(self):
+        ''' test get entry '''
         entry = self.view.get_entry()
         term = entry.pop('term')
         self.assertEqual(
@@ -117,12 +125,14 @@ class SynonymViewTestCase(BaseViewTestCase):
 
 
 class GlossaryViewTestCase(BaseViewTestCase):
+    ''' Glossary view test case '''
 
     def setUp(self):
         super(GlossaryViewTestCase, self).setUp()
         self.view = api.content.get_view(u'view', self.g1, self.request)
 
     def test_get_entries(self):
+        ''' test get entries '''
         self.assertEqual(
             self.view.get_entries(),
             {
@@ -142,6 +152,7 @@ class GlossaryViewTestCase(BaseViewTestCase):
         )
 
     def test_letters(self):
+        ''' test letters '''
         self.assertEqual(self.view.letters(), [u'F', u'S'])
 
         with api.env.adopt_roles(['Manager']):
@@ -168,6 +179,7 @@ class GlossaryViewTestCase(BaseViewTestCase):
         self.assertEqual(self.view.letters(), [u'A', u'F', u'S'])
 
     def test_terms(self):
+        ''' test terms '''
         self.assertEqual(
             self.view.terms('F'),
             [{'description': 'First Synonym Description',
@@ -185,6 +197,7 @@ class GlossaryViewTestCase(BaseViewTestCase):
 
 
 class GlossaryStateViewTestCase(BaseViewTestCase):
+    ''' Glossary State view test case '''
 
     def setUp(self):
         super(GlossaryStateViewTestCase, self).setUp()
@@ -192,6 +205,7 @@ class GlossaryStateViewTestCase(BaseViewTestCase):
                                          self.portal, self.request)
 
     def test_tooltip_is_enabled(self):
+        ''' test tooltip is enabled '''
         api.portal.set_registry_record(
             IGlossarySettings.__identifier__ + '.enable_tooltip',
             True
@@ -205,6 +219,7 @@ class GlossaryStateViewTestCase(BaseViewTestCase):
         self.assertFalse(self.view.tooltip_is_enabled)
 
     def test_content_type_is_enabled(self):
+        ''' test content type is enabled '''
         self.assertFalse(self.view.content_type_is_enabled)
 
         self.view.context = self.d1
@@ -214,6 +229,7 @@ class GlossaryStateViewTestCase(BaseViewTestCase):
         self.assertFalse(self.view.content_type_is_enabled)
 
     def test_is_view_action(self):
+        ''' test is view action '''
         self.assertTrue(self.view.is_view_action)
 
         self.view.request = TestRequest(environ={
@@ -240,6 +256,7 @@ class GlossaryStateViewTestCase(BaseViewTestCase):
 
 
 class JsonViewTestCase(BaseViewTestCase):
+    ''' Json view test case '''
 
     def setUp(self):
         super(JsonViewTestCase, self).setUp()
@@ -250,6 +267,7 @@ class JsonViewTestCase(BaseViewTestCase):
         )
 
     def test_get_json_entries(self):
+        ''' test get json entries '''
         self.assertEqual(
             self.view.get_json_entries(),
             [{'description': 'First Term Description', 'term': 'First Term'},
@@ -261,14 +279,17 @@ class JsonViewTestCase(BaseViewTestCase):
         )
 
     def test__call__(self):
+        ''' test call '''
         import json
 
         self.view()
         result = self.view.request.response.getBody()
         self.assertEqual(
             json.loads(result),
-            [{u'description': u'First Term Description', u'term': u'First Term'},
-             {u'description': u'Second Term Description', u'term': u'Second Term'},
+            [{u'description': u'First Term Description',
+              u'term': u'First Term'},
+             {u'description': u'Second Term Description',
+              u'term': u'Second Term'},
              {u'description': u'First Synonym Description',
               u'synonym': u'First Synonym'},
              {u'description': u'Second Synonym Description',

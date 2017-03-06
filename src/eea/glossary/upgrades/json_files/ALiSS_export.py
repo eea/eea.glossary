@@ -1,10 +1,13 @@
-# This is the python script used in ZMI on
-# http://glossary.eea.europa.eu/etds/ALiSS_catalog to export data from
-# the catalog
+''' This is the python script used in ZMI on
+ http://glossary.eea.europa.eu/etds/ALiSS_catalog to export data from
+ the catalog
 
-# the query value (i.e. Glossary UID) must be taken for each ALiSS Center
-# from manage_properties_html
-query = {'meta_type': {'operator': 'and ', 'query': 'ALiSS Element'},
+ the query value (i.e. Glossary UID) must be taken for each ALiSS Center
+ from manage_properties_html import.
+
+ Commented, since it is not a valid module, can only be run in Zope console '''
+
+'''query = {'meta_type': {'operator': 'and ', 'query': 'ALiSS Element'},
          'center_parent': {'query': '9385171863'}}
 elements = {}
 props = [
@@ -34,4 +37,4 @@ for k in brains:
         if prop_value:
             el_data[prop] = prop_value
     elements[k.id] = el_data
-return elements
+return elements'''

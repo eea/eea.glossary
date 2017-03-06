@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+''' views module '''
+
 import json
 from Acquisition import aq_inner
 from zope.component import getUtility
@@ -55,6 +57,8 @@ class TermView(BrowserView):
         return item
 
     def get_synonyms(self, attribute_name='term'):
+        ''' returns all synonyms pointing to current ob '''
+
         catalog = getUtility(ICatalog)
         intids = getUtility(IIntIds)
         result = []
@@ -73,6 +77,8 @@ class TermView(BrowserView):
         return result
 
     def get_subject_title(self, subject_id):
+        ''' return current ob's title '''
+
         return subjects.by_value.get(subject_id).title
 
 
@@ -99,6 +105,8 @@ class SynonymView(BrowserView):
         return item
 
     def get_subject_title(self, subject_id):
+        ''' return subject title '''
+
         return subjects.by_value.get(subject_id).title
 
 

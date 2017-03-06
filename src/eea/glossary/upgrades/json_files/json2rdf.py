@@ -1,3 +1,4 @@
+''' export to RDF module '''
 import json
 import codecs
 
@@ -101,4 +102,5 @@ for json_id, glossary_id in glossaries.items():
 
 
 def escape(text):
+    ''' minimal escape method '''
     return text.replace('<', '&lt;').replace('>', '&gt;')

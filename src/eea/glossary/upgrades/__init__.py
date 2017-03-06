@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+''' init '''
 from eea.glossary.logger import logger
 from plone import api
 
