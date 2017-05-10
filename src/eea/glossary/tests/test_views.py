@@ -2,10 +2,10 @@
 ''' test views module  '''
 import unittest
 from z3c.relationfield import RelationValue
-from zope.intid.interfaces import IIntIds
 from eea.glossary.interfaces import IGlossarySettings
 from eea.glossary.testing import INTEGRATION_TESTING
 from plone import api
+from zope.intid.interfaces import IIntIds
 from zope.publisher.browser import TestRequest
 from zope.component import getUtility
 
