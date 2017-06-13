@@ -6,7 +6,6 @@ For Plone 5 we need to install plone.app.contenttypes.
 import pkg_resources
 
 from plone import api
-from plone.app.robotframework.testing import AUTOLOGIN_LIBRARY_FIXTURE
 from plone.app.testing import FunctionalTesting
 from plone.app.testing import IntegrationTesting
 from plone.app.testing import PloneSandboxLayer
@@ -42,11 +41,3 @@ FIXTURE = Fixture()
 
 INTEGRATION_TESTING = IntegrationTesting(
     bases=(FIXTURE,), name='eea.glossary:Integration')
-
-FUNCTIONAL_TESTING = FunctionalTesting(
-    bases=(FIXTURE,), name='eea.glossary:Functional')
-
-ROBOT_TESTING = FunctionalTesting(
-    bases=(FIXTURE, AUTOLOGIN_LIBRARY_FIXTURE, z2.ZSERVER_FIXTURE),
-    name='eea.glossary:Robot',
-)
