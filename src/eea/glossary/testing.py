@@ -6,10 +6,8 @@ For Plone 5 we need to install plone.app.contenttypes.
 import pkg_resources
 
 from plone import api
-from plone.app.testing import FunctionalTesting
 from plone.app.testing import IntegrationTesting
 from plone.app.testing import PloneSandboxLayer
-from plone.testing import z2
 
 try:
     pkg_resources.get_distribution('plone.app.contenttypes')
