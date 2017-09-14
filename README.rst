@@ -1,6 +1,8 @@
-***************
+========
 Glossary
-***************
+========
+.. image:: http://ci.eionet.europa.eu/job/eea/job/eea.glossary/job/master/badge/icon
+  :target: http://ci.eionet.europa.eu/job/eea/job/eea.glossary/job/master/display/redirect
 
 .. contents:: Table of Contents
 
