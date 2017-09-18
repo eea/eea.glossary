@@ -14,44 +14,233 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
-#: ./../profiles/default/types/Glossary.xml
+#: ../../glossary/profiles.zcml:15
+msgid "A Dexterity-based content type to define a glossary and its terms."
+msgstr ""
+
+#: ../../glossary/profiles/default/types/Glossary.xml
 msgid "A Glossary"
 msgstr "Ein Glossar"
 
-#: ./../profiles/default/types/Term.xml
-msgid "A Term"
-msgstr "Ein Glossareintrag"
-
-#: ./../profiles/default/types/Synonym.xml
+#: ../../glossary/profiles/default/types/Synonym.xml
 msgid "A Synonym"
 msgstr "Ein Synonym"
 
-#: ./../interfaces.py:20
+#: ../../glossary/profiles/default/types/Term.xml
+msgid "A Term"
+msgstr "Ein Glossareintrag"
+
+#: ../../glossary/constants.py:6
+msgid "Administration and Legislation"
+msgstr ""
+
+#: ../../glossary/constants.py:7
+msgid "Agriculture and Rural Areas"
+msgstr ""
+
+#: ../../glossary/constants.py:8
+msgid "Air and Climate Change"
+msgstr ""
+
+#: ../../glossary/interfaces.py:53
+msgid "Body text"
+msgstr ""
+
+#: ../../glossary/constants.py:9
+msgid "CHEMICALS AND HEALTH"
+msgstr ""
+
+#: ../../glossary/browser/templates/term.pt:37
+#: ../../glossary/interfaces.py:74
+msgid "Comment"
+msgstr ""
+
+#: ../../glossary/interfaces.py:69
+msgid "Context"
+msgstr ""
+
+#: ../../glossary/browser/templates/term.pt:31
+msgid "Context:"
+msgstr ""
+
+#: ../../glossary/constants.py:10
+msgid "DATA MANAGEMENT AND INFORMATION"
+msgstr ""
+
+#: ../../glossary/browser/templates/term.pt:55
+#: ../../glossary/interfaces.py:89
+msgid "Definition source URL"
+msgstr ""
+
+#: ../../glossary/browser/templates/term.pt:43
+#: ../../glossary/interfaces.py:79
+msgid "Definition source publication"
+msgstr ""
+
+#: ../../glossary/constants.py:11
+msgid "ECONOMICS AND CORPORATE REPORTING"
+msgstr ""
+
+#: ../../glossary/profiles.zcml:15
+msgid "EEA Glossary"
+msgstr ""
+
+#: ../../glossary/constants.py:12
+msgid "EIONET"
+msgstr ""
+
+#: ../../glossary/constants.py:13
+msgid "ENERGY"
+msgstr ""
+
+#: ../../glossary/constants.py:14
+msgid "ENVIRONMENTAL INDICATORS"
+msgstr ""
+
+#: ../../glossary/constants.py:15
+msgid "ENVIRONMENTAL INSTRUMENTS"
+msgstr ""
+
+#: ../../glossary/interfaces.py:32
 msgid "Enable tooltip."
 msgstr "Tooltip einschalten."
 
-#: ./../interfaces.py:19
+#: ../../glossary/interfaces.py:31
 msgid "Enable tooltip?"
 msgstr "Tooltip einschalten?"
 
-#: ./../controlpanel.py:12
-#: ./../profiles/default/controlpanel.xml
-#: ./../profiles/default/types/Glossary.xml
+#: ../../glossary/interfaces.py:37
+msgid "Enabled Content Types"
+msgstr ""
+
+#: ../../glossary/constants.py:16
+msgid "GENERAL"
+msgstr ""
+
+#: ../../glossary/controlpanel.py:13
+#: ../../glossary/profiles/default/controlpanel.xml
+#: ../../glossary/profiles/default/types/Glossary.xml
 msgid "Glossary"
 msgstr "Glossar"
 
-#: ./../interfaces.py:35
-msgid "Image"
-msgstr "Bild"
+#: ../../glossary/constants.py:17
+msgid "IMPACT ASSESSMENT"
+msgstr ""
 
-#: ./../controlpanel.py:13
+#: ../../glossary/constants.py:18
+msgid "INTEGRATED TOOLS AND METHODOLOGIES FOR ASSESSMENT"
+msgstr ""
+
+#: ../../glossary/constants.py:19
+msgid "LAND COVER AND LAND USE"
+msgstr ""
+
+#: ../../glossary/browser/templates/term.pt:81
+#: ../../glossary/interfaces.py:110
+msgid "Long definition"
+msgstr ""
+
+#: ../../glossary/constants.py:20
+msgid "MARINE AND COASTAL ENVIRONMENT"
+msgstr ""
+
+#: ../../glossary/constants.py:22
+msgid "NATURAL AND TECHNOLOGICAL HAZARDS"
+msgstr ""
+
+#: ../../glossary/constants.py:21
+msgid "NATURE AND BIODIVERSITY"
+msgstr ""
+
+#: ../../glossary/constants.py:23
+msgid "NOISE"
+msgstr ""
+
+#: ../../glossary/interfaces.py:38
+msgid "Only objects of these content types will display glossary terms."
+msgstr ""
+
+#: ../../glossary/browser/templates/term.pt:61
+#: ../../glossary/interfaces.py:94
+msgid "Organisation"
+msgstr ""
+
+#: ../../glossary/browser/templates/term.pt:67
+#: ../../glossary/interfaces.py:99
+msgid "Organisation full name"
+msgstr ""
+
+#: ../../glossary/browser/templates/term.pt:49
+#: ../../glossary/interfaces.py:84
+msgid "Publication year"
+msgstr ""
+
+#: ../../glossary/constants.py:24
+msgid "SCENARIOS AND PROSPECTIVE ANALYSIS"
+msgstr ""
+
+#: ../../glossary/constants.py:25
+msgid "SOIL"
+msgstr ""
+
+#: ../../glossary/controlpanel.py:14
 msgid "Settings for the eea.glossary package"
 msgstr "Einstellungen für die eea.glossary Erweiterung"
 
-#: ./../profiles/default/types/Term.xml
+#: ../../glossary/interfaces.py:64
+msgid "Source"
+msgstr ""
+
+#: ../../glossary/browser/templates/term.pt:25
+msgid "Source:"
+msgstr ""
+
+#: ../../glossary/browser/templates/term.pt:73
+#: ../../glossary/interfaces.py:104
+msgid "Subjects"
+msgstr ""
+
+#: ../../glossary/profiles/default/types/Synonym.xml
+msgid "Synonym"
+msgstr "Synonym"
+
+#: ../../glossary/browser/templates/synonym.pt:16
+msgid "Synonym for:"
+msgstr ""
+
+#: ../../glossary/browser/templates/term.pt:16
+msgid "Synonyms:"
+msgstr ""
+
+#: ../../glossary/constants.py:26
+msgid "TOURISM"
+msgstr ""
+
+#: ../../glossary/constants.py:27
+msgid "TRANSPORT"
+msgstr ""
+
+#: ../../glossary/interfaces.py:120
+#: ../../glossary/profiles/default/types/Term.xml
 msgid "Term"
 msgstr "Glossareintrag"
 
-#: ./../profiles/default/types/Synonym.xml
-msgid "Synonym"
-msgstr "Synonym"
+#: ../../glossary/constants.py:28
+msgid "URBAN ENVIRONMENT"
+msgstr ""
+
+#: ../../glossary/profiles.zcml:24
+msgid "Uninstall eea.glossary."
+msgstr ""
+
+#: ../../glossary/constants.py:29
+msgid "WASTE"
+msgstr ""
+
+#: ../../glossary/constants.py:30
+msgid "WATER"
+msgstr ""
+
+#: ../../glossary/profiles.zcml:24
+msgid "eea.glossary: uninstall"
+msgstr ""
