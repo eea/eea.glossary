@@ -13,7 +13,7 @@
           <div class="metadata-container">
             <div class="page">
               <dt>
-                  <span>Synonym for:</span>
+                  <span i18n:translate="">Synonym for:</span>
               </dt>
               <dd>
                   <a tal:content="item/term/to_object/title" tal:attributes="href item/term/to_path" />

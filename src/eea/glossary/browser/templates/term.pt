@@ -13,7 +13,7 @@
           <div class="metadata-container">
             <div class="page">
               <dt>
-                  <span>Synonyms:</span>
+                  <span i18n:translate="">Synonyms:</span>
               </dt>
               <dd>
                 <ul>
@@ -22,55 +22,55 @@
                   </li>
               </dd>
               <dt>
-                  <span>Source:</span>
+                  <span i18n:translate="">Source:</span>
               </dt>
               <dd>
                   <span tal:content="item/source" />
               </dd>
               <dt>
-                  <span>Context:</span>
+                  <span i18n:translate="">Context:</span>
               </dt>
               <dd>
                   <span tal:content="item/context" />
               </dd>
               <dt>
-                  <span>Comment</span>
+                  <span i18n:translate="">Comment</span>
               </dt>
               <dd>
                   <span tal:content="item/comment" />
               </dd>
               <dt>
-                  <span>Definition source publication</span>
+                  <span i18n:translate="">Definition source publication</span>
               </dt>
               <dd>
                   <span tal:content="item/definition_source_publication" />
               </dd>
               <dt>
-                  <span>Publication year</span>
+                  <span i18n:translate="">Publication year</span>
               </dt>
               <dd>
                   <span tal:content="item/publication_year" />
               </dd>
               <dt>
-                  <span>Definition source URL</span>
+                  <span i18n:translate="">Definition source URL</span>
               </dt>
               <dd>
                   <span tal:content="item/definition_source_url" />
               </dd>
               <dt>
-                  <span>Organisation</span>
+                  <span i18n:translate="">Organisation</span>
               </dt>
               <dd>
                   <span tal:content="item/organisation" />
               </dd>
               <dt>
-                  <span>Organisation full name</span>
+                  <span i18n:translate="">Organisation full name</span>
               </dt>
               <dd>
                   <span tal:content="item/organisation_fullname" />
               </dd>
               <dt>
-                  <span>Subjects</span>
+                  <span i18n:translate="">Subjects</span>
               </dt>
               <dd>
                   <ul>
@@ -78,7 +78,7 @@
                   </ul>
               </dd>
               <dt>
-                  <span>Long definition</span>
+                  <span i18n:translate="">Long definition</span>
               </dt>
               <dd>
                   <span tal:content="item/long_definition" />
