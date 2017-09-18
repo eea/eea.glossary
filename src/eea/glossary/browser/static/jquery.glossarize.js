@@ -1,3 +1,4 @@
+/** jslint:disable **/
 /**
  * Plugin Name: Glossarizer
  * Author : Vinay @Pebbleroad
