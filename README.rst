@@ -1,8 +1,12 @@
 ========
 Glossary
 ========
-.. image:: http://ci.eionet.europa.eu/job/eea/job/eea.glossary/job/master/badge/icon
-  :target: http://ci.eionet.europa.eu/job/eea/job/eea.glossary/job/master/display/redirect
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.glossary/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.glossary/job/develop/display/redirect
+  :alt: develop
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.glossary/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.glossary/job/master/display/redirect
+  :alt: master
 
 .. contents:: Table of Contents
 
