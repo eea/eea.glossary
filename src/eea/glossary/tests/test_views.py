@@ -271,11 +271,7 @@ class JsonViewTestCase(BaseViewTestCase):
         self.assertEqual(
             self.view.get_json_entries(),
             [{'description': 'First Term Description', 'term': 'First Term'},
-             {'description': 'Second Term Description', 'term': 'Second Term'},
-             {'description': 'First Synonym Description',
-              'synonym': 'First Synonym'},
-             {'description': 'Second Synonym Description',
-              'synonym': 'Second Synonym'}]
+             {'description': 'Second Term Description', 'term': 'Second Term'}]
         )
 
     def test__call__(self):
@@ -289,9 +285,5 @@ class JsonViewTestCase(BaseViewTestCase):
             [{u'description': u'First Term Description',
               u'term': u'First Term'},
              {u'description': u'Second Term Description',
-              u'term': u'Second Term'},
-             {u'description': u'First Synonym Description',
-              u'synonym': u'First Synonym'},
-             {u'description': u'Second Synonym Description',
-              u'synonym': u'Second Synonym'}]
+              u'term': u'Second Term'}]
         )
