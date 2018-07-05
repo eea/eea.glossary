@@ -2,7 +2,9 @@ Changelog
 =========
 
 1.7.dev0 - (unreleased)
------------------------
+------------------
+* Change: Remove synonyms from json view and add tooltip initializer
+  [iulianpetchesi refs #90374]
 * Change: updated URLs pointing to eea.europa.eu with https://
   [alecghica refs #95849]
 
@@ -58,4 +60,3 @@ Changelog
     - [valipod refs #79376]
 * Upgrade step: create the three Glossaries and import data into them
   [valipod refs #79822]
-
