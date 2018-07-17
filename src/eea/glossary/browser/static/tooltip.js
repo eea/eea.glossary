@@ -1,3 +1,4 @@
+/** jslint:disable **/
 //
 // Author : http://osvaldas.info/elegant-css-and-jquery-tooltip-responsive-mobile-friendly
 //
