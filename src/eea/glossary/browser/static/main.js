@@ -5,6 +5,7 @@ var portal_url = (portal_url === undefined) ? $('body').attr('data-portal-url') 
 $(function(){
   $('#content').glossarizer({
     sourceURL: portal_url + '/@@glossary',
+    exactMatch: false,
     callback: function() {
       // Callback fired after glossarizer finishes its job
       new tooltip();

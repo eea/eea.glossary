@@ -3,7 +3,8 @@ Changelog
 
 1.7.dev0 - (unreleased)
 ------------------
-* Change: Remove synonyms from json view/tests and add tooltip initializer
+* Change: Remove synonyms from json view/tests and add tooltip initializer,
+  update the glossarize and tooltip js with the latest modifications 
   [iulianpetchesi refs #90374]
 * Change: updated URLs pointing to eea.europa.eu with https://
   [alecghica refs #95849]
