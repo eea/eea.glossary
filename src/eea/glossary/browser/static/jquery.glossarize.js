@@ -124,26 +124,37 @@
        * 3. Ends with comma
        */
 
+      // for (var i = 0; i < this.glossary.length; i++) {
+      //   if (this.options.exactMatch) {
+      //     if (this.glossary[i].term == this.clean(term)) {
+      //       return this.glossary[i].description.replace(/\"/gi, '&quot;')
+      //     }
+      //   } else {
+      //     if (this.glossary[i].term.match(regex)) {
+      //       if (this.glossary[i].description === "") {
+      //           for (var j = 0; j < this.glossary.length; j++) {
+      //               if (this.glossary[j].term == this.clean(term)) {
+      //                   if (this.glossary[j].description === "") {
+      //                       return "The term doesn't have a definition in the glossary."
+      //                   }
+      //                   return this.glossary[j].description.replace(/\"/gi, '&quot;')
+      //               }
+      //           }
+      //       }
+      //       return this.glossary[i].description.replace(/\"/gi, '&quot;')
+      //     }
+      //   }
+      // }
       for (var i = 0; i < this.glossary.length; i++) {
-        if (this.options.exactMatch) {
-          if (this.glossary[i].term == this.clean(term)) {
-            return this.glossary[i].description.replace(/\"/gi, '&quot;')
-          }
-        } else {
-          if (this.glossary[i].term.match(regex)) {
-            if (this.glossary[i].description === "") {
-                for (var j = 0; j < this.glossary.length; j++) {
-                    if (this.glossary[j].term == this.clean(term)) {
-                        if (this.glossary[j].description === "") {
-                            return "The term doesn't have a definition in the glossary."
-                        }
-                        return this.glossary[j].description.replace(/\"/gi, '&quot;')
-                    }
-                }
+          if (this.options.exactMatch) {
+            if (this.glossary[i].term == this.clean(term)) {
+              return this.glossary[i].description.replace(/\"/gi, '&quot;')
             }
-            return this.glossary[i].description.replace(/\"/gi, '&quot;')
+          } else {
+            if (this.glossary[i].term.match(regex)) {
+              return this.glossary[i].description.replace(/\"/gi, '&quot;')
+            }
           }
-        }
       }
     },
     clean: function (text) {
