@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.7.dev0 - (unreleased)
+1.7 - (2019-01-28)
 ------------------
 * Change: Remove synonyms from json view/tests and add tooltip initializer,
   update the glossarize and tooltip js with the latest modifications 
