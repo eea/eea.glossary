@@ -163,4 +163,5 @@ body.portaltype-glossary .letter .terms .title
     cursor: help;
 
     border-bottom: 1px #333 dotted;
+    text-decoration: none;
 }

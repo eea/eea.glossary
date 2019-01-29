@@ -233,11 +233,6 @@ class JsonView(BrowserView):
                 'term': brain.Title,
                 'description': brain.Description,
             })
-        for brain in catalog(portal_type=['Synonym']):
-            items.append({
-                'synonym': brain.Title,
-                'description': brain.Description,
-            })
 
         return items
 
